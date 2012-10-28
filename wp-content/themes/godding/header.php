@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-	<html <?php language_attributes(); ?>>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]><html class="ie8" <?php language_attributes(); ?>><![endif]-->
+<!--[if IE 9 ]><html class="ie9" <?php language_attributes(); ?>><![endif]-->
+<!--[if !IE]>--><html <?php language_attributes(); ?>><!--<![endif]-->
 		<head>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
 			<meta name="description" content="We are a long established dedicated Theatre Arts School located in the centre of Gloucester,

@@ -124,15 +124,49 @@ ul#nav li a:hover{
 	top: 10px;
 	left: 10px;
 }
-#photoShow{
+#slideShow{
 	margin: 0 auto;
 	width: 970px;
 	height: 330px;
 	z-index: -2;
 	position: absolute;
-	top: 160px;
-	left: 0;                  /* set left and right to the same value to center for absolutely positioned elements */
+	top: 165px;
+	left: -12px;
 	right: 0;
+	overflow: hidden;
+}
+#slideShow li{
+	opacity: 1;
+	visibility: visible;
+	height: auto;
+	-webkit-transition: visibility 1s, opacity 1s;
+	-moz-transition: visibility 1s, opacity 1s;
+	-o-transition: visibility 1s, opacity 1s;
+	-ms-transition: visibility 1s, opacity 1s;
+	transition: visibility 1s, opacity 1s;
+}
+.ie8 #slideShow,
+.ie9 #slideShow {
+	display: block;
+	visibility: visible;
+	opacity: 1;
+	height: auto;
+}
+#slideShow .hidden{
+	visibility: hidden;
+	opacity: 0;
+	height: 0;
+	-webkit-transition: visibility 1s, opacity 1s;
+	-moz-transition: visibility 1s, opacity 1s;
+	-o-transition: visibility 1s, opacity 1s;
+	-ms-transition: visibility 1s, opacity 1s;
+	transition: visibility 1s, opacity 1s;
+}
+.ie8 #slideShow .hidden,
+.ie9 #slideShow .hidden{
+	display: none;
+	opacity: 1;
+	height: auto;
 }
 #cont{
 	width: 940px;

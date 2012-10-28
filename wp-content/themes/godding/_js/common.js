@@ -22,8 +22,8 @@ MGTA = {
 		//if($('#advert').length){
 		//	this.advert.overlay.init();
 		//}
-        if ($('#photoShow').length){
-            photoShow.init();
+        if ($('#slideShow').length){
+            slideShow.init(document.getElementById('slideShow'));
         }       
 	},
 	subtleFade : function () {
@@ -259,19 +259,40 @@ var teachers = {
     }
 };
 
-var photoShow = window.photoShow || {};
+var slideShow = window.slideShow || {};
 
-photoShow = function (){
+slideShow = (function (){
 
-    function setUp (){
+    function setUp ($slideShow){
+        $('li', $slideShow).addClass('hidden');
+        $('li:first-child', $slideShow).removeClass('hidden');
+        var slideShow = window.setTimeout(function (){
+            animate($slideShow);
+        }, 5000);
+    }
 
 
+    function animate ($slideShow){
+        var $visible = $('li', $slideShow).not('.hidden'),
+            slideShow;
+
+        if ($visible.next('li').length > 0){
+            $visible.next('li').removeClass('hidden');
+        } else{
+            $('li:first-child', $slideShow).removeClass('hidden');
+        }
+        
+        $visible.addClass('hidden');
+
+        slideShow = window.setTimeout(function (){
+            animate($slideShow);
+        }, 5000);
     }
 
     return {
         init: setUp
     };
-}
+}());
 
 
 $(document).ready(function () {
