@@ -1,0 +1,401 @@
+/**
+	Theme Name: godding
+	Theme URI: http://www.mandygodding.co.uk/
+	Description: A theme for the Many Godding Theatre Arts website.
+	Author: Aaron Faber
+	Author URI: http://www.aaronfaber.co.uk/
+	Version: 1.0
+	Tags: mandy, godding, theatre, dance, drama, singing
+
+	This work is released under GNU General Public License, version 2 (GPL).
+	http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+*/
+
+/* -- global styles -- */
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background:url(_images/background.jpg);
+	font-family: rockwell, verdana, sans-serif;
+	font-size: 11pt;
+	text-align: center;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul, li{
+	  list-style: none;
+}
+
+/* -- metro font embedding -- */
+
+@font-face {
+    font-family: 'MetroNormal';
+    src: url('_fonts/metror-webfont.eot');
+    src: url('_fonts/metror-webfont.eot?#iefix') format('embedded-opentype'),
+         url('_fonts/metror-webfont.woff') format('woff'),
+         url('_fonts/metror-webfont.ttf') format('truetype'),
+         url('_fonts/metror-webfont.svg#MetroNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1, h2, h3{
+	font-family: 'MetroNormal', rockwell, verdana, sans-serif;
+}
+h1, h2{
+	font-size: 20pt;
+}
+h3{
+	font-size: 18pt;
+}
+.announcement{
+	color: #c20643;
+	font-weight: bold;
+}
+
+/* -- advert page --*/
+
+#advertObject{
+	margin: 0 auto;
+	vertical-align: top; 	
+}
+
+/* -- header -- */
+
+#header{
+	background:url(_images/header_background.png) no-repeat;
+	width: 978px;
+	height: 503px;
+	margin: 0 auto;
+	position: static;
+	z-index: 3;
+}
+#mgtaLogo{
+	border: none;
+}
+
+/* -- flash logo -- */
+
+#logoObject{
+	position: static;
+	z-index: 0;
+	float: left;
+	margin-left: -100px;
+}
+#mgtaLogo{
+	position: static;
+	margin-top: 10px;
+	float: right;
+	margin-right: 50px;
+}
+
+/* -- navigation -- */
+
+#nav{
+	font-family: 'MetroNormal', verdana, sans-serif;
+	font-weight: 900;
+	position: static;
+	float: right;
+	margin: 5px 55px 0 0;
+	z-index: 1000;
+	padding: 0;
+}
+ul#nav li{
+	float: left;
+	list-style: none;
+	margin-left: 20px;
+	font-size: 22pt;
+}
+ul#nav li a{
+	color: #000;
+	text-decoration: none;
+}
+ul#nav li a:hover{
+	color: #b1afc2;	
+}
+#socialPlugins{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+#photoShow{
+	margin: 0 auto;
+	width: 970px;
+	height: 330px;
+	z-index: -2;
+	position: absolute;
+	top: 160px;
+	left: 0;                  /* set left and right to the same value to center for absolutely positioned elements */
+	right: 0;
+}
+#cont{
+	width: 940px;
+	height: 100%;
+	background: #fff;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden; /* -- allows the 100% height to work with floated elements -- */
+	text-align: left;
+	border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	padding: 20px 0 20px 20px;
+	letter-spacing: -3px;
+}
+.column{
+	width: 430px;
+	display: inline-block;
+	letter-spacing: 0;
+	vertical-align: top;
+	margin:  0 20px 0 0;
+}
+#cont .column:last-child{
+	margin: 0;
+}
+.followInfo{
+	margin: 3px;
+}
+#footer{
+	clear: both;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #fff;
+	background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #CAC6DD),
+		color-stop(0.25 #E1DEEC),
+        color-stop(1.0, #FFF)
+    );
+    background:-moz-linear-gradient(
+        center bottom,
+        #CAC6DD 0%,
+		#E1DEEC 25%,
+        #FFF 100%
+    );
+	width: 960px;
+	height: 36px;
+	margin: 10px auto 10px auto;
+	clear: both;	
+}
+#footer p{
+	float: left;
+	margin: 10px 0 0 70px;
+}
+.orgLogos{
+	display: block;
+	float: right;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+/* -- styles for videos -- */
+
+.carousel {
+   overflow: hidden;
+   margin: 0 auto;
+   width: 350px;
+   position: relative;
+}
+.vidCont{
+	width: 10000px;
+	position: relative;
+	float: left;
+	margin:  0 0 15px 0;
+	padding: 0;
+	overflow: hidden;
+	right: 0;
+}
+.carousel .range{
+	  float: left;
+	  margin: 5px 0 20px 0;
+}
+.vidCont li{
+	float: left;
+	height: 100%;
+	width: 100%;
+	list-style: none;
+}
+.vidCont li h3{
+	  margin: 10px 0 5px 0;
+	  font-family: rockwell, verdana, sans-serif;
+	  font-size: 14pt;
+	  height: 46px;
+}
+.vidCont li object{
+	  display: block;
+}
+.vidCont li h3.active{
+	  text-align: center;
+}
+.vidCont li object.active{
+	  margin: 0 auto;
+}
+.vidCont li.active{
+	  width: 280px;
+	  margin:  0 20px 0 0;
+}
+.controls{
+	float: right;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.controls li{
+	  width: 50px;
+	  height: 20px;
+	  background: #E1DEEC;
+	background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #CAC6DD),
+        color-stop(1.0, #E1DEEC)
+    );
+    background:-moz-linear-gradient(
+        center bottom,
+        #CAC6DD 0%,
+        #E1DEEC 100%
+    );
+	  float: left;
+	  border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  -webkit-border-radius: 5px;
+	  margin: 0 5px 0 0;
+}
+.controls button{
+	  border: none;
+	  display: block;
+	  width: 100%;
+	  height: 100%;
+}
+.controls li:hover{
+	  background: #CAC6DD;
+}
+.controls button:hover{
+	  cursor: pointer;
+}
+.prev{
+	background: transparent url(_images/prev.png) no-repeat scroll 7px 5px;
+}
+.next{
+   background: transparent url(_images/next.png) no-repeat scroll 34px 5px;
+}
+
+/* -- teachers page styles --*/
+
+#teacher-container{
+	padding: 0 20px 0 20px;
+}
+#teacher-container ul{
+   padding: 0;
+}
+#teacher-container li{
+   float: left;
+}
+#teachersTitle{
+	margin: 10px 0 15px 0;
+	letter-spacing: 0;
+}
+.teach-title{
+	font-size: 11pt;
+	font-family: rockwell, verdana, sans-serif;
+	margin: 0 0 7px 0;
+	height: 30px;
+}
+.js ul{
+   margin: 0 auto;
+   width: 885px;
+}
+#bio-container {
+   height: 700px;
+   letter-spacing: 0;
+}
+#bio-container p{
+   width: 500px;
+   margin: 10px auto;
+}
+.js li{
+   margin: 0 15px 20px 0;
+}
+.js .bio-pic{
+   opacity: 0.5;
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+   filter: alpha(opacity=50);
+}
+.js .bio-pic:hover{
+   outline: 2px solid #CAC6DD;
+   cursor: pointer;
+}
+.bio-pic{
+   /*float: left;*/
+}
+.bio-link{
+   /*float: left;*/
+	margin: 5px 0 0 0;
+   clear: both;
+   width: 100%;
+   display: block;
+}
+.selected img.bio-pic{
+   opacity: 1;
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+}
+#biography-portal li{
+	letter-spacing: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+/* -- contact page styles -- */
+
+#mapCont{
+	width: 400px;
+	height: 300px;
+}
+
+#advert.js{
+	display: none;
+}
+#advert img{
+	border: none;
+}
+.overlay {
+	background: #000;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+/*	height: 10000px;*/
+	opacity: 0.6;
+}
+.overlayContainer{
+	position: absolute;
+	top: 20px;
+	margin: 0 auto;
+	opacity: 1;
+	padding: 10px;
+	background: #FFF;
+	width: 640px;
+	left: 50%;
+	margin: 0 0 0 -320px;
+	border-radius: 5px;
+}
+.overlayContainer .close{
+	color: #000;
+	float: right;
+}
+.address{
+	margin: 10px 0 0 0;
+}

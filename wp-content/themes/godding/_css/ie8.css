@@ -1,0 +1,8 @@
+/* -- teachers page styles --*/
+
+#bio-container {
+   clear: both;
+}
+.overlay{
+   filter: alpha(opacity = 60);	
+}
