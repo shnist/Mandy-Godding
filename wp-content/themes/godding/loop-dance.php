@@ -13,9 +13,7 @@
 				echo $content;
 			?>
 			
-			<!-- logos -->
-			<img class="orgLogos" src="/assets/images/bboLogo.jpg" alt="British Ballet Organisation" />
-			<img class="orgLogos" src="/assets/images/istdLogo.jpg" alt="Imperial Society of Teachers of Dancing" />
+			<?php include('blocks/qualifications.php'); ?>
 		</div>
 		
 		<?php get_footer(); ?>
