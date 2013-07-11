@@ -12,7 +12,7 @@
 		   <param name="loop" value="true" />
 		   <param name="menu" value="false" />
 		   <param name="wmode" value="transparent" />
-		   <img src="/assets/images/photoOne.png" alt="A samle photograph of the latest show">
+		   <img src="/assets/images/photoOne.png" alt="A sample photograph of the latest show">
 		   <!-- proper image fallback is needed here -->
 	   </object>
    <!-- <![endif]-->

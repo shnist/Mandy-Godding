@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/aaron/Sites/mandygodding",
+			"folder_exclude_patterns": ["wp-content/plugins", "node_modules"]
+		}
+	]
+}

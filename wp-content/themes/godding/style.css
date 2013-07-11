@@ -59,13 +59,6 @@ h3{
 	font-weight: bold;
 }
 
-/* -- advert page --*/
-
-#advertObject{
-	margin: 0 auto;
-	vertical-align: top; 	
-}
-
 /* -- header -- */
 
 #header{
@@ -117,7 +110,7 @@ ul#nav li a{
 	text-decoration: none;
 }
 ul#nav li a:hover{
-	color: #b1afc2;	
+	color: #b1afc2;
 }
 #socialPlugins{
 	position: absolute;
@@ -218,7 +211,7 @@ ul#nav li a:hover{
 	width: 960px;
 	height: 36px;
 	margin: 10px auto 10px auto;
-	clear: both;	
+	clear: both;
 }
 #footer p{
 	float: left;
@@ -399,36 +392,44 @@ ul#nav li a:hover{
 	height: 300px;
 }
 
-#advert.js{
+
+.overlay {
 	display: none;
 }
-#advert img{
-	border: none;
-}
-.overlay {
+.overlay.js {
+	display: block;
 	background: #000;
 	position: absolute;
 	left: 0;
 	top: 0;
 	width: 100%;
-/*	height: 10000px;*/
-	opacity: 0.6;
+	opacity: 0.9;
 }
-.overlayContainer{
+.overlayContainer {
 	position: absolute;
 	top: 20px;
 	margin: 0 auto;
 	opacity: 1;
 	padding: 10px;
 	background: #FFF;
-	width: 640px;
 	left: 50%;
 	margin: 0 0 0 -320px;
 	border-radius: 5px;
 }
-.overlayContainer .close{
+.overlayContainer .close {
 	color: #000;
 	float: right;
+	display: block;
+	margin: 0 0 10px 0;
+	background: #ddd;
+	padding: 5px;
+	font-size: 14px;
+}
+.overlayContainer img{
+	border: none;
+	clear: right;
+	display: block;
+	max-width: 640px;
 }
 .address{
 	margin: 10px 0 0 0;

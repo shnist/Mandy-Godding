@@ -17,14 +17,13 @@ MGTA = {
 		}
 		if ($('.announcement').length) {
 			var colorFader = setTimeout(function(){MGTA.subtleFade()}, 1000);
-			
 		}
-		//if($('#advert').length){
-		//	this.advert.overlay.init();
-		//}
+		if($('#advert').length){
+			this.advert.overlay.init();
+		}
         if ($('#slideShow').length){
             slideShow.init(document.getElementById('slideShow'));
-        }       
+        }
 	},
 	subtleFade : function () {
 		// the current colour
@@ -47,12 +46,12 @@ MGTA = {
 			zoom: 15,
 			center: location,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
-		};	
+		};
 		map = new google.maps.Map(document.getElementById("mapCont"), mapOptions);
-	
+
 		// setting up the marker for the position on the map
 		marker = new google.maps.Marker({
-			position: location, 
+			position: location,
 			map: map,
 			title: "Mandy Godding's Theatre Arts"
 		});
@@ -66,34 +65,17 @@ MGTA = {
 		}
 	},
 	advert : {
-		hover : function () {
-			$('#advert').mouseover(function () {
-				$(this).animate({
-					left : 0
-				}, {'queue' : false});
-			});
-			$('#advert').mouseout(function () {
-				$(this).animate({
-					left : -560
-				}, {'queue' : false});
-			});
-			$('#advert').click(function (e) {
-				e.preventDefault();
-			});
-		},
 		overlay : {
 			init : function () {
-				$('#advert').addClass('js')
-				$('body').append('<div class="overlay"></div><div class="overlayContainer"><a href="#" class="close">Close</a>'
-								 + '<img src="/assets/images/adverts/unchained_melody.jpg" alt="Unchained melody production at Bacon Theatre"></div>');
+				$('.overlay').addClass('js');
 				MGTA.advert.overlay.eventHandlers();
 				$('.overlay').height($(document).height());
 			},
 			eventHandlers : function () {
-				$('.overlayContainer .close').click(function (e) {
+				$('.overlayContainer .close, .overlay').click(function (e) {
 					e.preventDefault();
 					$('.overlay, .overlayContainer').fadeOut('slow', function (){
-						$('.overlay, .overlayContainer').remove();	
+						$('.overlay, .overlayContainer').remove();
 					});
 				});
 			}
@@ -118,31 +100,31 @@ var carousel = {
     },
     events : function () {
         var direction = null;
-            
+
         $('button', $('.controls li')).click(function (e) {
             if ($(e.target).hasClass('next')) {
                 direction = 'forward';
             } else {
                 direction = 'back';
             }
-            
+
             if ($(e.target).hasClass('disabled')) {
                 e.preventDefault();
             } else {
                 if (carousel.animated === false) {
                     carousel.controls(direction);
                     carousel.animated = true;
-                } 
+                }
             }
         });
     },
     controls : function (direction) {
         var distance = parseInt($('.vidCont li').css('width'), 10) - 10;
-        
+
         if ($('button', $('.controls li')).hasClass('disabled')) {
             $($('button')).removeClass('disabled');
         }
-        
+
         if (direction === 'forward') {
             if (carousel.current === carousel.total) {
                 carousel.current = carousel.total;
@@ -150,13 +132,13 @@ var carousel = {
                 carousel.current = carousel.current + 1;
             }
         } else {
-            if (carousel.current === 1) {      
+            if (carousel.current === 1) {
                 carousel.current = 1;
             } else {
                 carousel.current = carousel.current -1;
             }
         }
-        
+
         carousel.animate(direction, distance);
         carousel.updateTracker();
     },
@@ -167,19 +149,19 @@ var carousel = {
         if (carousel.current === carousel.total)  {
             $('.next', $('.controls li')).addClass('disabled');
         }
-        
+
         $('.range').replaceWith(carousel._create_tracker());
     },
     animate : function (direction, distance) {
         var currentState = parseInt($('.vidCont').css('right'), 10);
-      
+
         if (direction === 'forward') {
           distance = currentState + distance;
         } else {
           distance = currentState - distance;
         }
         $('.vidCont').animate({right: distance + 'px'}, 'normal' , function () {
-            carousel.animated = false;    
+            carousel.animated = false;
         });
     }
 };
@@ -203,7 +185,7 @@ var teachers = {
     },
     events : function () {
         var img = $('img.bio-pic', $('li'));
-        
+
         $(img).add('.bio-link', 'li').click(function (e) {
             var teacher = null;
             if($(e.target).attr('alt')){
@@ -215,12 +197,12 @@ var teachers = {
             if ($('li').hasClass('selected')) {
                 $('li').removeClass('selected');
             }
-            
+
             $(this).parents('li').addClass('selected');
             teachers.textHandler(teacher);
-                      
+
             e.preventDefault();
-        });    
+        });
     },
     textHandler : function (teacher) {
         var t = teacher;
@@ -229,7 +211,7 @@ var teachers = {
                 $(this).children('p').remove();
                 teachers.append(t);
             });
-        }        
+        }
     },
     append : function (t) {
         switch (t){
@@ -255,7 +237,7 @@ var teachers = {
                 break;
             default :
                 alert('An error has occured');
-        }        
+        }
     }
 };
 
@@ -281,7 +263,7 @@ slideShow = (function (){
         } else{
             $('li:first-child', $slideShow).removeClass('hidden');
         }
-        
+
         $visible.addClass('hidden');
 
         slideShow = window.setTimeout(function (){

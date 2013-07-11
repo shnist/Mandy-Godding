@@ -1,0 +1,1563 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"prototype"
+			],
+			[
+				"ca",
+				"canvas"
+			],
+			[
+				"Pl",
+				"Players"
+			],
+			[
+				"ba",
+				"Ball"
+			],
+			[
+				"Aud",
+				"AudioPlayer"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"game",
+				"gameSpeed"
+			],
+			[
+				"gameS",
+				"gameSpeed"
+			],
+			[
+				"gm",
+				"gameSteps"
+			],
+			[
+				"ti",
+				"this"
+			],
+			[
+				"play",
+				"play"
+			],
+			[
+				"res",
+				"restoreCanvasState"
+			],
+			[
+				"clear",
+				"clearCanvas"
+			],
+			[
+				"pitch",
+				"pitchHeight"
+			],
+			[
+				"canvas",
+				"canvasHeight"
+			],
+			[
+				"pi",
+				"pitchWidth"
+			],
+			[
+				"pitc",
+				"pitchWidth"
+			],
+			[
+				"canv",
+				"canvasWidth"
+			],
+			[
+				"get",
+				"getContext"
+			],
+			[
+				"mve",
+				"moveCount"
+			],
+			[
+				"move",
+				"movePlayers"
+			],
+			[
+				"write",
+				"writeTeamNames"
+			],
+			[
+				"s",
+				"subscribe"
+			],
+			[
+				"d",
+				"drawPitch"
+			],
+			[
+				"dr",
+				"drawGridLines"
+			],
+			[
+				"pub",
+				"pubsub"
+			],
+			[
+				"render",
+				"renderEndGameText"
+			],
+			[
+				"sub",
+				"subscribe"
+			],
+			[
+				"obse",
+				"ObserverList"
+			],
+			[
+				"Ob",
+				"ObserverList"
+			],
+			[
+				"for",
+				"forward"
+			],
+			[
+				"prp",
+				"prototype"
+			],
+			[
+				"pase",
+				"pauseGame"
+			],
+			[
+				"pla",
+				"playAudio"
+			],
+			[
+				"new",
+				"new"
+			],
+			[
+				"step",
+				"stepBackward"
+			],
+			[
+				"ste",
+				"stepForward"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"end",
+				"endingX"
+			],
+			[
+				"reso",
+				"restore"
+			],
+			[
+				"cav",
+				"canvasHeight"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"st",
+				"strict"
+			],
+			[
+				"str",
+				"strict"
+			],
+			[
+				"eve",
+				"eventName"
+			],
+			[
+				"ga",
+				"gameData"
+			],
+			[
+				"pit",
+				"pitchStartingY"
+			],
+			[
+				"can",
+				"canvasWidth"
+			],
+			[
+				"bot",
+				"botWidth"
+			],
+			[
+				"start",
+				"startY"
+			],
+			[
+				"draw",
+				"drawBall"
+			],
+			[
+				"background",
+				"background-attachment"
+			],
+			[
+				"stroke",
+				"strokeStyle"
+			],
+			[
+				"shad",
+				"shadowBlur"
+			],
+			[
+				"canva",
+				"canvasHeight"
+			],
+			[
+				"dc",
+				"document"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sec",
+				"player0SecondaryColour"
+			],
+			[
+				"prim",
+				"player0PrimaryColour"
+			],
+			[
+				"border-rad",
+				"border-bottom-left-radius"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"th",
+				"th"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"inlie",
+				"inline-block"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"player",
+				"player1SecondaryColour"
+			],
+			[
+				"bal",
+				"ballX"
+			],
+			[
+				"plaer",
+				"player0SecondaryColour"
+			],
+			[
+				"player1",
+				"PLAYER1"
+			],
+			[
+				"rest",
+				"restoreCanvasState"
+			],
+			[
+				"save",
+				"saveCanvasState"
+			],
+			[
+				"fil",
+				"fillStyle"
+			],
+			[
+				"gae",
+				"gameSequence"
+			],
+			[
+				"old",
+				"oldY"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"star",
+				"startSound"
+			],
+			[
+				"kick",
+				"kickSound"
+			],
+			[
+				"ol",
+				"oldX"
+			],
+			[
+				"ne",
+				"newX"
+			],
+			[
+				"animate",
+				"animateBall"
+			],
+			[
+				"c",
+				"canvas"
+			],
+			[
+				"Bot",
+				"BotBallProcessor"
+			],
+			[
+				"g",
+				"gameInformation"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"ball",
+				"ballPosition"
+			],
+			[
+				"newB",
+				"newBallPosition"
+			],
+			[
+				"di",
+				"distance"
+			],
+			[
+				"newBall",
+				"newBallX"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"players",
+				"playersCurrentMoves"
+			],
+			[
+				"pl",
+				"playerNewMove"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"m",
+				"messages"
+			],
+			[
+				"er",
+				"error"
+			],
+			[
+				"lega",
+				"legalMovements"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"BotBall",
+				"BotBallValidation"
+			],
+			[
+				"gam",
+				"gameState"
+			],
+			[
+				"Engine",
+				"EngineParameters"
+			],
+			[
+				"ini",
+				"initializeGame"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"Mod",
+				"ModelProvider"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "wp-content/themes/godding/index.php",
+			"settings":
+			{
+				"buffer_size": 1128,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/godding/loop-home.php",
+			"settings":
+			{
+				"buffer_size": 436,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mandygodding.sublime-project",
+			"settings":
+			{
+				"buffer_size": 128,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/godding/page.php",
+			"settings":
+			{
+				"buffer_size": 542,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 232.0,
+		"selected_items":
+		[
+			[
+				"svn com",
+				"SVN: Commit…"
+			],
+			[
+				"svn comm",
+				"SVN: Commit…"
+			],
+			[
+				"instal p",
+				"Package Control: Install Package"
+			],
+			[
+				"svn cm",
+				"SVN: Commit…"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"svn rever",
+				"SVN: Revert, Interactive…"
+			],
+			[
+				"svn st",
+				"SVN: Status"
+			],
+			[
+				"svn u",
+				"SVN: Update"
+			],
+			[
+				"set syntax jad",
+				"Set Syntax: Jade"
+			],
+			[
+				"pacl in",
+				"Package Control: Install Package"
+			],
+			[
+				"svn ad",
+				"SVN: Add, Interactive…"
+			],
+			[
+				"svn cle",
+				"SVN: Cleanup"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/etc/hosts",
+		"/etc/apache2/sites-enabled/galactic-drama",
+		"/etc/apache2/apache2.conf",
+		"/etc/apache2/sites-enabled/000-default",
+		"/home/aaron/Sites/galacticdrama/robots.txt",
+		"/tmp/sublime-svn-1367906745/SVN",
+		"/tmp/sublime-svn-1367876243/SVN",
+		"/tmp/sublime-svn-1367874732/SVN",
+		"/home/aaron/Sites/BotBall/canvas/Website/Views/canvasVisualise.jade",
+		"/home/aaron/Sites/BotBall/canvas/Website/Assets/Sass/style.scss",
+		"/tmp/sublime-svn-1367870375/SVN",
+		"/home/aaron/Sites/BotBall/canvas/gruntFile.js",
+		"/home/aaron/Sites/BotBall/canvas/Website/Assets/Sass/canvas.scss",
+		"/tmp/sublime-svn-1367867925/SVN",
+		"/tmp/sublime-svn-1367867804/SVN",
+		"/home/aaron/Sites/BotBall/canvas/Website/Assets/Script/visualiser.js",
+		"/home/aaron/Sites/BotBall/canvas/Website/Assets/Script/players.js",
+		"/home/aaron/Sites/BotBall/canvas/Website/Assets/Script/text.js",
+		"/home/aaron/Sites/BotBall/canvas/Website/Assets/Script/app.js",
+		"/home/aaron/Sites/BotBall/canvas/Website/Assets/Script/pitch.js",
+		"/home/aaron/Sites/BotBall/canvas/Website/Assets/Script/ball.js",
+		"/home/aaron/Sites/BotBall/canvas/Website/Assets/Script/main.js",
+		"/home/aaron/Sites/BotBall/canvas/Website/Assets/Script/require.js",
+		"/home/aaron/Sites/BotBall/canvas/Website/Assets/Script/pubsub.js",
+		"/tmp/sublime-svn-1367851953/SVN",
+		"/home/aaron/Sites/BotBall/trunk/Website/Assets/Style/style.css",
+		"/home/aaron/.ssh/pdf_dsa",
+		"/home/aaron/.config/openbox/menu.xml",
+		"/home/aaron/.ssh/id_dsa",
+		"/tmp/sublime-svn-1367175953/SVN",
+		"/tmp/sublime-svn-1367175935/SVN",
+		"/tmp/sublime-svn-1367172983/SVN",
+		"/tmp/sublime-svn-1367172964/SVN",
+		"/tmp/sublime-svn-1367172949/SVN",
+		"/tmp/sublime-svn-1367168617/SVN",
+		"/tmp/sublime-svn-1367166383/SVN",
+		"/tmp/sublime-svn-1367164138/SVN",
+		"/tmp/sublime-svn-1367162556/SVN",
+		"/tmp/sublime-svn-1367160631/SVN",
+		"/home/aaron/Sites/BotBall/trunk/Website/Views/includes/navigation.jade",
+		"/tmp/sublime-svn-1367157475/SVN",
+		"/tmp/sublime-svn-1367155211/SVN",
+		"/home/aaron/Sites/BotBall/trunk/Website/Routes/index.js",
+		"/home/aaron/Sites/BotBall/trunk/Website/Providers/visualisationProvider.js",
+		"/home/aaron/Sites/BotBall/trunk/GameServer/Controller/stdioGameController.js",
+		"/home/aaron/Sites/BotBall/trunk/GameServer/BotBall/botBallProcessor.js",
+		"/home/aaron/Sites/BotBall/trunk/GameServer/Model/modelProvider.js",
+		"/home/aaron/Sites/BotBall/trunk/Website/Games/benvaaron~~1366569795.json",
+		"/etc/apt/sources.list.d/10gen.list",
+		"/tmp/sublime-svn-1366833800/SVN",
+		"/tmp/sublime-svn-1366750103/SVN",
+		"/tmp/sublime-svn-1366746621/SVN",
+		"/home/aaron/Sites/BotBall/trunk/Website/Games/benvaaron~~1366569795.txt",
+		"/tmp/sublime-svn-1366745200/SVN",
+		"/tmp/sublime-svn-1366745142/SVN",
+		"/home/aaron/Sites/BotBall/trunk/Website/Views/includes/scripts.jade",
+		"/home/aaron/Sites/BotBall/trunk/Website/Providers/gameListProvider.js",
+		"/home/aaron/Sites/BotBall/trunk/Website/Views/visualise.jade",
+		"/tmp/sublime-svn-1366572290/SVN",
+		"/home/aaron/Sites/BotBall/trunk/Visualiser/index.html",
+		"/home/aaron/Sites/BotBall/trunk/Website/Views/layout.jade",
+		"/home/aaron/Sites/BotBall/trunk/Website/Views/includes/head.jade",
+		"/home/aaron/Sites/BotBall/trunk/Website/Assets/Style/normalise.css",
+		"/home/aaron/Sites/BotBall/trunk/Website/server.js",
+		"/home/aaron/Sites/BotBall/trunk/Website/Assets/Script/visualiser.js",
+		"/tmp/sublime-svn-1366567112/SVN",
+		"/home/aaron/Sites/BotBall/trunk/Website/Assets/Script/jquery.js",
+		"/home/aaron/Sites/BotBall/trunk/Website/Views/index.jade",
+		"/home/aaron/Sites/BotBall/trunk/Website/Views/rankings.jade",
+		"/home/aaron/Sites/BotBall/trunk/Website/Views/games.jade",
+		"/home/aaron/Sites/BotBall/trunk/GameServer/Controller/gameController.js",
+		"/tmp/sublime-svn-1366565675/SVN",
+		"/home/aaron/Sites/BotBall/trunk/Visualiser/main.js",
+		"/home/aaron/Sites/BotBall/trunk/Website/Assets/Style/global.css",
+		"/home/aaron/Sites/BotBall/trunk/BotWrapper/BotWrapper.js",
+		"/home/aaron/Sites/BotBall/trunk/GameServer/BotBall.js",
+		"/home/aaron/Sites/BotBall/trunk/Visualiser/game_data.js",
+		"/home/aaron/Sites/BotBall/trunk/Website/Games/benvaaron.txt",
+		"/tmp/sublime-svn-1366060738/SVN",
+		"/tmp/sublime-svn-1366060481/SVN",
+		"/tmp/sublime-svn-1366060362/SVN",
+		"/home/aaron/Sites/BotBall/Website/Routes/index.js",
+		"/home/aaron/Sites/BotBall/Website/server.js",
+		"/home/aaron/Sites/BotBall/GameServer/BotBall/botBallValidator.js",
+		"/home/aaron/Sites/BotBall/GameServer/Model/gameModel.json",
+		"/home/aaron/Sites/BotBall/GameServer/Controller/gameController.js",
+		"/home/aaron/Sites/BotBall/GameServer/BotBall/botBallBoard.js",
+		"/home/aaron/Sites/BotBall/GameServer/BotBall/botBallProcessor.js",
+		"/home/aaron/Sites/BotBall/GameServer/Model/modelProvider.js",
+		"/home/aaron/Sites/BotBall/GameServer/BotBall.js",
+		"/tmp/sublime-svn-1365632084/SVN",
+		"/tmp/sublime-svn-1365631530/SVN",
+		"/tmp/sublime-svn-1365631353/SVN",
+		"/tmp/sublime-svn-1365539426/SVN",
+		"/tmp/sublime-svn-1365453844/SVN",
+		"/tmp/sublime-svn-1365449191/SVN",
+		"/home/aaron/.config/openbox/rc.xml",
+		"/tmp/sublime-svn-1364850307/SVN",
+		"/tmp/sublime-svn-1364849371/SVN",
+		"/tmp/sublime-svn-1364849154/SVN",
+		"/tmp/sublime-svn-1364849145/SVN",
+		"/home/aaron/Sites/BotBall/GameServer/gameModel.json",
+		"/home/aaron/.config/sublime-text-2/Packages/User/SVN.sublime-settings",
+		"/tmp/sublime-svn-1364848422/SVN",
+		"/home/aaron/Sites/BotBall/GameServer/Model/gameModel.js",
+		"/home/aaron/Sites/BotBall/BotWrapper/BotWrapper.js",
+		"/tmp/sublime-svn-1364847166/SVN",
+		"/home/aaron/Sites/BotBall/GameServer/Model/model.js",
+		"/tmp/sublime-svn-1364841940/SVN",
+		"/home/aaron/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/tmp/sublime-svn-1364837875/SVN",
+		"/etc/X11/xorg.conf",
+		"/home/aaron/.profile",
+		"/home/aaron/.bashrc",
+		"/usr/bin/cb-x-www-browser-pipemenu",
+		"/home/aaron/bin/cb-x-www-browser-pipemenu",
+		"/home/aaron/bin/b-x-www-browser-pipemenu"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"game/render",
+			"this",
+			"console",
+			"startGame",
+			"loopData",
+			"startGame",
+			"Modules",
+			"canvas",
+			"endGame",
+			"startMoving",
+			"moveBall",
+			"\", ",
+			"jquery\",",
+			"\"",
+			"if (paused !== true){\n			setTimeout(function (){startGame();}, 1100);\n		}",
+			"scale",
+			"data",
+			"moveCount",
+			"data",
+			"Canvas",
+			"moveCount",
+			"ctx",
+			"scale",
+			"ctx",
+			"baseColour",
+			"gameData",
+			"moveBall",
+			"endX",
+			"positions.endX",
+			"positions.",
+			"endX",
+			"positions.endX",
+			"positions.",
+			"animateBall",
+			"new",
+			"old",
+			"7px",
+			"Tahoma",
+			"0px",
+			"px",
+			"%",
+			"8",
+			"0.5",
+			"goal",
+			"40px\" ",
+			"\"",
+			" +",
+			"40px\" ",
+			"\"",
+			"score",
+			"0C141F",
+			"td",
+			"Overview",
+			"’",
+			"out’",
+			"‘",
+			"out’",
+			"’",
+			"‘timed",
+			"‘",
+			"‘timed",
+			"‘",
+			"‘timed",
+			"‘",
+			"id",
+			"text",
+			"15",
+			"playGame",
+			");\n",
+			"player_0",
+			"}\n",
+			"(),",
+			"console",
+			"[moveCount]",
+			"player0",
+			"data[moveCount].",
+			"[moveCount]",
+			"player0",
+			"data[moveCount].",
+			"[moveCount]",
+			"\n[",
+			"executeMove",
+			"initialize",
+			"GameModel",
+			"gameFinished",
+			"file",
+			"write",
+			"marlin",
+			"playersCurrentMoves",
+			"geany",
+			"json",
+			"return",
+			"viewerFilename",
+			",\n",
+			"params",
+			"endCoordinate",
+			"[30",
+			"[0",
+			"0",
+			"initalGameState",
+			"	\"yourBot\": 1,\n		\"botCoordinateSets\": {\n			\"0\": [\n				[1,2], \n				[5,7], \n				[6,2],\n				[4,4],\n				[10,4]\n			],\n			\"1\": [\n				[30,0],\n				[22,14],\n				[26,3],\n				[28,14],\n				[16,4]\n			]\n		}\n	};\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "wp-content/themes/godding/index.php",
+					"settings":
+					{
+						"buffer_size": 1128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 132.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wp-content/themes/godding/loop-home.php",
+					"settings":
+					{
+						"buffer_size": 436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "mandygodding.sublime-project",
+					"settings":
+					{
+						"buffer_size": 128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "wp-content/themes/godding/page.php",
+					"settings":
+					{
+						"buffer_size": 542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 55.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 154.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"home",
+				"wp-content/themes/godding/loop-home.php"
+			],
+			[
+				"",
+				"wp-content/themes/godding/page.php"
+			],
+			[
+				"hme",
+				"wp-content/themes/godding/loop-home.php"
+			],
+			[
+				"inde",
+				"wp-content/themes/godding/index.php"
+			],
+			[
+				"canvas",
+				"Website/Views/canvasVisualise.jade"
+			],
+			[
+				"pubs",
+				"Website/Assets/Script/Utilities/pubsub.js"
+			],
+			[
+				"pit",
+				"Website/Assets/Script/Modules/pitch.js"
+			],
+			[
+				"gruntf",
+				"gruntFile.js"
+			],
+			[
+				"style.sc",
+				"Website/Assets/Sass/style.scss"
+			],
+			[
+				"text",
+				"Website/Assets/Script/Modules/text.js"
+			],
+			[
+				"player",
+				"Website/Assets/Script/Modules/players.js"
+			],
+			[
+				"ball",
+				"Website/Assets/Script/Modules/ball.js"
+			],
+			[
+				"can",
+				"Website/Views/canvasVisualise.jade"
+			],
+			[
+				"main",
+				"Website/Assets/Script/main.js"
+			],
+			[
+				"visu",
+				"Website/Views/canvasVisualise.jade"
+			],
+			[
+				"vis",
+				"Website/Assets/Script/visualiser.js"
+			],
+			[
+				"visua",
+				"Website/Assets/Script/visualiser.js"
+			],
+			[
+				"navig",
+				"Website/Views/includes/navigation.jade"
+			],
+			[
+				"over",
+				"Website/Views/overview.jade"
+			],
+			[
+				"style",
+				"Website/Assets/Style/style.css"
+			],
+			[
+				"games",
+				"Website/Views/games.jade"
+			],
+			[
+				"quick",
+				"Website/Views/quickstart.jade"
+			],
+			[
+				"ranin",
+				"Website/Views/rankings.jade"
+			],
+			[
+				"layou",
+				"Website/Views/layout.jade"
+			],
+			[
+				"server",
+				"Website/server.js"
+			],
+			[
+				"index.",
+				"Website/Routes/index.js"
+			],
+			[
+				"ben",
+				"Website/Games/benvaaron~~1366569795.json"
+			],
+			[
+				"index",
+				"Website/Routes/index.js"
+			],
+			[
+				"canv",
+				"Website/Views/canvasVisualise.jade"
+			],
+			[
+				"botball",
+				"GameServer/BotBall/botBallProcessor.js"
+			],
+			[
+				"mode",
+				"GameServer/Model/modelProvider.js"
+			],
+			[
+				"gamecontro",
+				"GameServer/Controller/stdioGameController.js"
+			],
+			[
+				"visual",
+				"Website/Assets/Script/visualiser.js"
+			],
+			[
+				"jquery",
+				"Website/Assets/Script/jquery.js"
+			],
+			[
+				"gameserver",
+				"GameServer/Controller/gameController.js"
+			],
+			[
+				"index.jade",
+				"Website/Views/index.jade"
+			],
+			[
+				"rankings",
+				"Website/Views/rankings.jade"
+			],
+			[
+				"games.",
+				"Website/Views/games.jade"
+			],
+			[
+				"visualiser.js",
+				"Website/Assets/Script/visualiser.js"
+			],
+			[
+				"layout",
+				"Website/Views/layout.jade"
+			],
+			[
+				"scrip",
+				"Website/Views/includes/scripts.jade"
+			],
+			[
+				"serer",
+				"Website/server.js"
+			],
+			[
+				"nor",
+				"Website/Assets/Style/normalise.css"
+			],
+			[
+				"global",
+				"Website/Assets/Style/global.css"
+			],
+			[
+				"head",
+				"Website/Views/includes/head.jade"
+			],
+			[
+				"game.jade",
+				"Website/Views/games.jade"
+			],
+			[
+				"gamelist",
+				"Website/Providers/gameListProvider.js"
+			],
+			[
+				"routes",
+				"Website/Routes/index.js"
+			],
+			[
+				"game",
+				"Visualiser/game_data.js"
+			],
+			[
+				"botba",
+				"GameServer/BotBall.js"
+			],
+			[
+				"modle",
+				"GameServer/Model/modelProvider.js"
+			],
+			[
+				"botballpro",
+				"GameServer/BotBall/botBallProcessor.js"
+			],
+			[
+				"botwrap",
+				"BotWrapper/BotWrapper.js"
+			],
+			[
+				"bot",
+				"GameServer/BotBall.js"
+			],
+			[
+				"botb",
+				"GameServer/BotBall/botBallValidator.js"
+			],
+			[
+				"model",
+				"GameServer/Model/model.js"
+			],
+			[
+				"botbl",
+				"GameServer/BotBall/botBallValidator.js"
+			],
+			[
+				"gamecon",
+				"GameServer/Controller/gameController.js"
+			],
+			[
+				"mod",
+				"GameServer/Model/modelProvider.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
