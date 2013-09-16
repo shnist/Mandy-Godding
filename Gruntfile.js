@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 					{
 						expand: true,
 						src: ['index.php', 'wp-content/**'],
-						dest: '/var/www/wordpress/'
+						dest: 'dist/'
 					}
 				]
 			}
@@ -35,5 +35,5 @@ module.exports = function(grunt) {
 
 	// Default task(s).
 	grunt.registerTask('default', ['copy']);
-	grunt.registerTask('deploy', ['ftp-deploy']);
+	grunt.registerTask('deploy', ['clean', 'copy', 'ftp-deploy']);
 };
