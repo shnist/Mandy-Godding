@@ -22,7 +22,15 @@ MGTA = {
 			this.advert.overlay.init();
 		}
         if ($('#slideShow').length){
-            slideShow.init(document.getElementById('slideShow'));
+            $('#slideShow').slick({
+                dots: true,
+                autoplay: true,
+                autoplayspeed: 5000,
+                speed: 750,
+                fade: true,
+                cssEase: 'ease-in',
+                appendDots: $('#header')
+            });
         }
 	},
 	subtleFade : function () {
@@ -227,10 +235,6 @@ var teachers = {
                 $(teachers.biographies.jackie).appendTo('#bio-container');
                 $('#bio-container').animate({opacity: 1.0}, 1000);
                 break;
-            case 'Penny Hemms':
-                $(teachers.biographies.penny).appendTo('#bio-container');
-                $('#bio-container').animate({opacity: 1.0}, 1000);
-                break;
             case 'Nikki Irving' :
                 $(teachers.biographies.nikki).appendTo('#bio-container');
                 $('#bio-container').animate({opacity: 1.0}, 1000);
@@ -240,42 +244,6 @@ var teachers = {
         }
     }
 };
-
-var slideShow = window.slideShow || {};
-
-slideShow = (function (){
-
-    function setUp ($slideShow){
-        $('li', $slideShow).addClass('hidden');
-        $('li:first-child', $slideShow).removeClass('hidden');
-        var slideShow = window.setTimeout(function (){
-            animate($slideShow);
-        }, 5000);
-    }
-
-
-    function animate ($slideShow){
-        var $visible = $('li', $slideShow).not('.hidden'),
-            slideShow;
-
-        if ($visible.next('li').length > 0){
-            $visible.next('li').removeClass('hidden');
-        } else{
-            $('li:first-child', $slideShow).removeClass('hidden');
-        }
-
-        $visible.addClass('hidden');
-
-        slideShow = window.setTimeout(function (){
-            animate($slideShow);
-        }, 5000);
-    }
-
-    return {
-        init: setUp
-    };
-}());
-
 
 $(document).ready(function () {
 	MGTA.init();
