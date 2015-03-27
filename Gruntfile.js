@@ -8,7 +8,11 @@ module.exports = function(grunt) {
 				files: [
 					{
 						expand: true,
-						src: ['index.php', 'wp-content/**'],
+						src: [
+							'index.php', 
+							'wp-content/index.php', 
+							'wp-content/themes/godding/**'
+						],
 						dest: 'dist/'
 					}
 				]
@@ -34,6 +38,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-ftp-deploy');
 
 	// Default task(s).
-	grunt.registerTask('default', ['copy']);
+	grunt.registerTask('default', ['clean', 'copy']);
 	grunt.registerTask('deploy', ['clean', 'copy', 'ftp-deploy']);
 };
