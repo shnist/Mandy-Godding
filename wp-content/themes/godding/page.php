@@ -19,6 +19,9 @@ elseif(is_page('teachers')){
 elseif(is_page('contact')){
 	get_template_part('loop', 'contact');
 }
+elseif(is_page('news')){
+	get_template_part('loop', 'news');
+}
 else{//standard page template
 		get_template_part('loop', 'page');
 }
