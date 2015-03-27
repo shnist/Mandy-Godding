@@ -33,6 +33,7 @@
 			<!-- styles -->
 			<link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 			<link rel="stylesheet" href="/wp-content/themes/godding/_css/mobile.css" media="handheld, only screen and (max-device-width:480px)" >
+			<link rel="stylesheet" href="/wp-content/themes/godding/_css/slick.css" media="screen" >
 			<!--[if IE 8]><link rel="stylesheet" href="/wp-content/themes/godding/_css/ie8.css" media="screen" ><![endif]-->
 			<!--[if IE 7]><link rel="stylesheet" href="/wp-content/themes/godding/_css/ie7.css" media="screen" ><![endif]-->
 			<!--[if IE 6]><link rel="stylesheet" href="/wp-content/themes/godding/_css/ie6.css" media="screen" ><![endif]-->
@@ -40,13 +41,6 @@
 			<link rel="alternate" type="application/rss+xml" href="<?php bloginfo('rss2_url'); ?>" title="<?php printf( __( '%s latest posts', 'godding' ), wp_specialchars( get_bloginfo('name'), 1 ) ); ?>" />
 			<link rel="alternate" type="application/rss+xml" href="<?php bloginfo('comments_rss2_url') ?>" title="<?php printf( __( '%s latest comments', 'godding' ), wp_specialchars( get_bloginfo('name'), 1 ) ); ?>" />
 			<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" 
-			<!-- facebook properties -->
-			<meta property="og:title" content="Mandy Godding&#039;s Theatre Arts" >
-			<meta property="og:type" content="website" >
-			<meta property="og:url" content="http://www.mandygodding.co.uk" >
-			<meta property="og:image" content="http://www.mandygodding.co.uk/assets/images/logo.jpg" >
-			<meta property="og:site_name" content="Mandy Godding&#039;s Theatre Arts" >
-			<meta property="fb:admins" content="1619700045" >
 			<!-- google analytics -->
 			<script type="text/javascript">
 				var _gaq = _gaq || [];
