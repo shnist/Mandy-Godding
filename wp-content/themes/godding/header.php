@@ -33,6 +33,7 @@
 			<!-- styles -->
 			<link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 			<link rel="stylesheet" href="/wp-content/themes/godding/_css/mobile.css" media="handheld, only screen and (max-device-width:480px)" >
+			<link rel="stylesheet" href="/wp-content/themes/godding/_css/ionicons.css" media="screen" >
 			<link rel="stylesheet" href="/wp-content/themes/godding/_css/slick.css" media="screen" >
 			<link rel="stylesheet" href="/wp-content/themes/godding/_css/slick-theme.css" media="screen" >
 			<link rel="stylesheet" href="/wp-content/themes/godding/_css/print.css" media="print" >
