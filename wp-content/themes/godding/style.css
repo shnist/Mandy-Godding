@@ -141,9 +141,9 @@ h1 {
 	display: inline-block;
 	letter-spacing: 0;
 	vertical-align: top;
-	margin:  0 20px 0 0;
+	margin: 0 20px 0 0;
 }
-#cont .column:last-child{
+.container .column:last-child{
 	margin: 0;
 }
 .followInfo{
@@ -320,7 +320,7 @@ footer {
 
 /* -- teachers page styles --*/
 
-#teacher-container{
+/*#teacher-container{
 	padding: 0 20px 0 20px;
 }
 #teacher-container ul{
@@ -328,11 +328,11 @@ footer {
 }
 #teacher-container li{
    float: left;
-}
-#teachersTitle{
+}*/
+/*#teachersTitle{
 	margin: 10px 0 15px 0;
 	letter-spacing: 0;
-}
+}*/
 .teach-title{
 	font-size: 11pt;
 	font-family: rockwell, verdana, sans-serif;
@@ -343,29 +343,35 @@ footer {
    margin: 0 auto;
    width: 885px;
 }
-#bio-container {
-   height: 700px;
-   letter-spacing: 0;
+
+#biography-portal {
+	text-align: center;
 }
-#bio-container p{
-   width: 500px;
+#bio-container {
+/*   height: 70px;*/
+   width: 550px;
+   letter-spacing: 0;
+   text-align: left;
+   margin: 0 auto;
+}
+#bio-container p {
    margin: 10px auto;
 }
 .js li{
-   margin: 0 15px 20px 0;
+	margin: 0 15px 20px 0;
 }
 .js .bio-pic{
-   opacity: 0.5;
+	opacity: 0.5;
 }
 .js .bio-pic:hover{
-   outline: 2px solid #CAC6DD;
-   cursor: pointer;
+	outline: 2px solid #CAC6DD;
+	cursor: pointer;
 }
 .bio-link{
 	margin: 5px 0 0 0;
-   clear: both;
-   width: 100%;
-   display: block;
+	clear: both;
+	width: 100%;
+	display: block;
 }
 .selected img.bio-pic{
    opacity: 1;
