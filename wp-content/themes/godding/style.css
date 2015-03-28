@@ -48,12 +48,6 @@ ul, li{
 h1, h2, h3{
 	font-family: 'MetroNormal', Century Gothic, sans-serif;
 }
-h1, h2{
-	font-size: 20pt;
-}
-h3{
-	font-size: 18pt;
-}
 .announcement{
 	color: #c20643;
 	font-weight: bold;
@@ -91,8 +85,7 @@ h3{
 /* -- navigation -- */
 
 #nav{
-	font-family: 'MetroNormal', Century Gothic, sans-serif;
-	font-weight: 900;
+	font-family: Century Gothic, sans-serif;
 	position: static;
 	float: right;
 	margin: 5px 55px 0 0;
@@ -103,7 +96,7 @@ ul#nav li{
 	float: left;
 	list-style: none;
 	margin-left: 20px;
-	font-size: 22pt;
+	font-size: 18px;
 }
 ul#nav li a{
 	color: #000;
