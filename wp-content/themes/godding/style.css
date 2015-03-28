@@ -22,7 +22,6 @@ body{
 	background:url(_images/background.jpg);
 	font-family: rockwell, verdana, sans-serif;
 	font-size: 11pt;
-	text-align: center;
 }
 ul{
 	margin: 0;
@@ -149,8 +148,13 @@ h1 {
 .followInfo{
 	margin: 3px;
 }
-#footer{
-	clear: both;
+
+/**
+	Footer
+*/
+
+footer {
+/*	overflow: hidden;*/
 	border-radius: 5px;
 	background-color: #fff;
 	background:-webkit-gradient(
@@ -168,19 +172,58 @@ h1 {
         #FFF 100%
     );
 	width: 960px;
-	height: 36px;
+/*	height: 36px;*/
+/*	padding: 0 20px 20px 20px;*/
 	margin: 10px auto 10px auto;
-	clear: both;
+/*	clear: both;*/
 }
-#footer p{
-	float: left;
-	margin: 10px 0 0 70px;
+.footer-bottom {
+	background: #CAC6DD;
+	padding: 10px 0;
+	margin-top: 15px;
+}
+.footer-bottom small {
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+/*	margin: 0 0 0 30px;*/
 }
 .organisation-logo {
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 30px;
 	margin-top: 15px;
+}
+
+/**
+	Footer nav component
+*/
+.footer-nav {
+	width: 33%;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer-nav .heading {
+	margin: 10px 0 20px;
+}
+.footer-nav:first-child {
+	padding-left: 20px;
+}
+.footer-nav a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	margin: 10px 0 0 0;
+	border-bottom: 1px solid #CAC6DD;
+	padding: 0 0 10px 5px;
+}
+.footer-nav a:hover {
+	color: #b1afc2;
+}
+.footer-nav a:first-child {
+	margin: 0;
+	padding-top: 10px;
 }
 
 /* -- styles for videos -- */
