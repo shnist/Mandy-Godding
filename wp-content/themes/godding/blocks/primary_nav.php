@@ -5,6 +5,6 @@
   <li><a href="<?php echo get_permalink( 12 ); ?>">Singing</a></li>
   <li><a href="<?php echo get_permalink( 14 ); ?>">Drama</a></li>
   <li><a href="<?php echo get_permalink( 16 ); ?>">Teachers</a></li>
-  <li><a href="/wp-content/themes/godding/_timetable/timetable.pdf">Timetable</a></li>
+  <li><a href="<?php echo get_permalink( 101 ); ?>">Timetable</a></li>
   <li><a href="<?php echo get_permalink( 18 ); ?>">Contact</a></li>
 </ul>

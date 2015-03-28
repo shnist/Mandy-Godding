@@ -22,8 +22,12 @@ elseif(is_page('contact')){
 elseif(is_page('news')){
 	get_template_part('loop', 'news');
 }
-else{//standard page template
-		get_template_part('loop', 'page');
+elseif(is_page('timetable')){
+	get_template_part('loop', 'timetable');
+}
+else{
+	//standard page template
+	get_template_part('loop', 'page');
 }
 ?>
 <?php endif; ?>
