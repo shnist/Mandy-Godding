@@ -49,6 +49,16 @@ module.exports = function(grunt) {
 			}
 		},
 		'ftp-deploy': {
+			preview: {
+				auth: {
+					host: 'ftp.mandygodding.co.uk',
+					port: 21,
+					authKey: 'mgtaBeta'
+				},
+				src: 'dist',
+				dest: '/htdocs/mgta_beta',
+				exclusions: ['dist/.DS_Store', 'dist/Thumbs.db', 'dist/tmp', 'dist/.git']
+			},
 			build: {
 				auth: {
 					host: 'ftp.mandygodding.co.uk',
@@ -72,4 +82,5 @@ module.exports = function(grunt) {
 	grunt.registerTask('deploy:all', ['clean', 'copy:all', 'ftp-deploy']);
 	grunt.registerTask('deploy:site', ['clean', 'copy:site', 'ftp-deploy']);
 	grunt.registerTask('deploy:assets', ['clean', 'copy:assets', 'ftp-deploy']);
+	grunt.registerTask('preview', ['clean', 'copy', 'ftp-deploy:preview']);
 };
