@@ -135,6 +135,7 @@ h1 {
 	margin: 0 auto;
 	border-radius: 0 0 5px 5px;
 	padding: 20px 0 20px 20px;
+	box-shadow: 3px 3px 10px 0 rgba(128,128,128,1);
 }
 .column{
 	width: 430px;
@@ -155,28 +156,19 @@ h1 {
 */
 
 footer {
-/*	overflow: hidden;*/
 	border-radius: 5px;
-	background-color: #fff;
-	background:-webkit-gradient(
+	background: #FFFFFF;
+/*	background:-webkit-gradient(
         linear,
         left bottom,
         left top,
         color-stop(0, #CAC6DD),
 		color-stop(0.25 #E1DEEC),
         color-stop(1.0, #FFF)
-    );
-    background:-moz-linear-gradient(
-        center bottom,
-        #CAC6DD 0%,
-		#E1DEEC 25%,
-        #FFF 100%
-    );
+    );*/
+	box-shadow: 3px 3px 10px 0 rgba(128,128,128,1);
 	width: 960px;
-/*	height: 36px;*/
-/*	padding: 0 20px 20px 20px;*/
 	margin: 10px auto 10px auto;
-/*	clear: both;*/
 }
 .footer-bottom {
 	background: #CAC6DD;
