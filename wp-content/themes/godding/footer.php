@@ -1,6 +1,6 @@
 		<footer>
 			<nav class="footer-nav">
-				<h2 class="heading">Useful Links</h2>
+		<!-- 		<h2 class="heading">Useful Links</h2> -->
 				<a href="<?php echo get_permalink( 5 ); ?>">
 					<i class="ion-ios-arrow-right"></i>
 					Home
@@ -19,7 +19,7 @@
 				</a>
 			</nav>
 			<nav class="footer-nav">
-				<h2 class="heading">Courses and Timetable</h2>
+				<!-- <h2 class="heading">Courses and Timetable</h2> -->
 				<a href="<?php echo get_permalink( 9 ); ?>">
 					<i class="ion-ios-arrow-right"></i>
 					Dance
