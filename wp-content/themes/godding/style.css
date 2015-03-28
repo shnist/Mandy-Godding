@@ -141,7 +141,7 @@ ul#nav li a:hover{
 	text-align: left;
 	border-radius: 0 0 5px 5px;
 	padding: 20px 0 20px 20px;
-	letter-spacing: -3px;
+/*	letter-spacing: -3px;*/
 }
 .column{
 	width: 430px;
