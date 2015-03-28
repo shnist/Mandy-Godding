@@ -8,8 +8,6 @@
 		The page you are looking for is currently lost. To get back on track, why not
 		<a href="/"> return to our homepage? </a>
 	</p>
-
-	<?php include('blocks/qualifications.php'); ?>
 </div>
 
 <?php get_footer(); ?>
