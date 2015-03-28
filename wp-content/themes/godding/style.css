@@ -176,11 +176,11 @@ h1 {
 	float: left;
 	margin: 10px 0 0 70px;
 }
-.orgLogos{
-	display: block;
-	float: right;
-	margin-right: 30px;
-	margin-top: 20px;
+.organisation-logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 30px;
+	margin-top: 15px;
 }
 
 /* -- styles for videos -- */
