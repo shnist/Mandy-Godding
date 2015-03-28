@@ -46,7 +46,7 @@ ul, li{
 
 }
 h1, h2, h3{
-	font-family: 'MetroNormal', rockwell, verdana, sans-serif;
+	font-family: 'MetroNormal', Century Gothic, sans-serif;
 }
 h1, h2{
 	font-size: 20pt;
@@ -91,7 +91,7 @@ h3{
 /* -- navigation -- */
 
 #nav{
-	font-family: 'MetroNormal', verdana, sans-serif;
+	font-family: 'MetroNormal', Century Gothic, sans-serif;
 	font-weight: 900;
 	position: static;
 	float: right;
