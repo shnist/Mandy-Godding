@@ -4,7 +4,7 @@
 <!--[if IE 9 ]><html class="ie9" <?php language_attributes(); ?>><![endif]-->
 <!--[if !IE]>--><html <?php language_attributes(); ?>><!--<![endif]-->
 		<head>
-			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+			<meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo('charset'); ?>" />
 			<meta name="description" content="We are a long established dedicated Theatre Arts School located in the centre of Gloucester,
 			offering a range of dance and singing lessons. With over 25 years experience, we offer a comprehensive education in the performing arts. " >
 			<!--<title>Mandy Godding's Theatre Arts: Dance and Singing School in Gloucester</title>-->
