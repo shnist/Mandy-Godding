@@ -35,6 +35,7 @@
 			<link rel="stylesheet" href="/wp-content/themes/godding/_css/mobile.css" media="handheld, only screen and (max-device-width:480px)" >
 			<link rel="stylesheet" href="/wp-content/themes/godding/_css/slick.css" media="screen" >
 			<link rel="stylesheet" href="/wp-content/themes/godding/_css/slick-theme.css" media="screen" >
+			<link rel="stylesheet" href="/wp-content/themes/godding/_css/print.css" media="print" >
 			<!--[if IE 8]><link rel="stylesheet" href="/wp-content/themes/godding/_css/ie8.css" media="screen" ><![endif]-->
 			<!-- rss feeds -->
 			<link rel="alternate" type="application/rss+xml" href="<?php bloginfo('rss2_url'); ?>" title="<?php printf( __( '%s latest posts', 'godding' ), wp_specialchars( get_bloginfo('name'), 1 ) ); ?>" />

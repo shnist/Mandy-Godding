@@ -1,0 +1,29 @@
+#logoObject {
+	display: none;
+}
+#nav {
+	display: none;
+}
+.slick-dots {
+	display: none !important;
+}
+#slideShow {
+	display: none;
+}
+.timetable {
+	border-collapse: collapse;
+}
+.timetable td,
+.timetable th {
+	border: 1px solid;
+	padding: 3px;
+}
+.timetable thead th {
+	text-transform: uppercase;
+	border-bottom-width: 3px;
+}
+.timetable th {
+	background: #ddd;
+	border-bottom-width: 2px;
+	border-top-width: 2px;
+}
