@@ -417,3 +417,19 @@ ul#nav li a:hover{
 	font-size: 12px;
 	vertical-align: top;
 }
+
+.wpcf7-text,
+.wpcf7-textarea {
+	width: 100%;
+	margin-top: 5px;
+	padding: 5px;
+	font-size: 16px;
+}
+.wpcf7-submit {
+	background: #ca3398;
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+}
