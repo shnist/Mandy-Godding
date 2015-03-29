@@ -32,7 +32,7 @@
 					<i class="ion-ios-arrow-right"></i>
 					Drama
 				</a>
-				<a href="/wp-content/themes/godding/_timetable/timetable.pdf">
+				<a href="<?php echo get_permalink( 101 ); ?>">
 					<i class="ion-ios-arrow-right"></i>
 					Timetable
 				</a>

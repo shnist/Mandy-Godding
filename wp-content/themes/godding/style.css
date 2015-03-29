@@ -65,7 +65,7 @@ h1 {
 
 /* -- header -- */
 
-#header{
+#header {
 	background:url(_images/header_background.png) no-repeat;
 	width: 978px;
 	height: 503px;
@@ -73,7 +73,7 @@ h1 {
 	position: relative;
 	z-index: 5;
 }
-#mgtaLogo{
+#mgtaLogo {
 	border: none;
 }
 
@@ -108,13 +108,16 @@ h1 {
 	font-size: 18px;
 	text-decoration: none;
 }
+.primary-nav a:hover {
+	color: #b1afc2;
+}
 
-#socialPlugins{
+#socialPlugins {
 	position: absolute;
 	top: 10px;
 	left: 10px;
 }
-#slideShow{
+#slideShow {
 	margin: 0 auto;
 	width: 970px;
 	min-height: 330px;
@@ -134,20 +137,20 @@ h1 {
 	background: #fff;
 	margin: 0 auto;
 	border-radius: 0 0 5px 5px;
-	padding: 20px 0 20px 20px;
+	padding: 20px 0 30px 20px;
 	box-shadow: 3px 3px 10px 0 rgba(128,128,128,1);
 }
-.column{
+.column {
 	width: 430px;
 	display: inline-block;
 	letter-spacing: 0;
 	vertical-align: top;
 	margin: 0 20px 0 0;
 }
-.container .column:last-child{
+.container .column:last-child {
 	margin: 0;
 }
-.followInfo{
+.followInfo {
 	margin: 3px;
 }
 
@@ -174,12 +177,12 @@ footer {
 	background: #CAC6DD;
 	padding: 10px 0;
 	margin-top: 15px;
+	border-radius: 0 0 5px 5px;
 }
 .footer-bottom small {
 	display: inline-block;
 	width: 49%;
 	text-align: center;
-/*	margin: 0 0 0 30px;*/
 }
 .organisation-logo {
 	display: inline-block;
@@ -218,7 +221,9 @@ footer {
 	margin: 0;
 	padding-top: 10px;
 }
-
+.footer-nav i {
+	margin-right: 3px;
+}
 /* -- styles for videos -- */
 
 .carousel {
