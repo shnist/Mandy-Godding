@@ -424,6 +424,7 @@ ul#nav li a:hover{
 	margin-top: 5px;
 	padding: 5px;
 	font-size: 16px;
+	border: 1px solid #ddd;
 }
 .wpcf7-submit {
 	background: #ca3398;
