@@ -65,7 +65,7 @@
 			<div id="header">
 				<?php include ('blocks/logo.php'); ?>
 				<a href="/index.html">
-					<img id="mgtaLogo" src="/wp-content/themes/godding/_images/title.png" alt="Mandy Godding's Theatre Arts Logo" width="557" height="106">
+					<img id="mgtaLogo" src="/wp-content/themes/godding/_images/title.png" alt="Mandy Godding's Theatre Arts Logo">
 				</a>
 				<?php include ('blocks/primary_nav.php'); ?>
 			</div>

@@ -1,3 +1,17 @@
+body {
+	color: #000;
+	background: #fff;
+}
+h2, 
+h3 {
+	page-break-after: avoid;
+}
+img {
+	max-width: 100% !important;
+}
+ul, img {
+   page-break-inside: avoid;
+}
 #logoObject {
 	display: none;
 }
@@ -11,19 +25,31 @@
 	display: none;
 }
 .timetable {
+	width: 95%;
 	border-collapse: collapse;
+	margin: 0 auto;
+	border: 3px solid #000;
 }
-.timetable td,
-.timetable th {
-	border: 1px solid;
-	padding: 3px;
+.timetable caption {
+	font-size: 24px;
+	padding: 15px 0;
+}
+.timetable th,
+.timetable td {
+	padding: 3px 5px;
 }
 .timetable thead th {
 	text-transform: uppercase;
-	border-bottom-width: 3px;
 }
 .timetable th {
 	background: #ddd;
-	border-bottom-width: 2px;
-	border-top-width: 2px;
+	border: 3px solid #000;
+	text-align: center;
+}
+.timetable td {
+	border-left: 3px solid #000;
+	border-right: 3px solid #000;
+	border-bottom: 1px dotted;
+	font-size: 12px;
+	vertical-align: top;
 }
