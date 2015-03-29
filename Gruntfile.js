@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		clean: ['dist'],
 		copy: {
-			main: {
+			all: {
 				files: [
 					{
 						expand: true,
@@ -12,6 +12,35 @@ module.exports = function(grunt) {
 							'index.php', 
 							'wp-content/index.php', 
 							'wp-content/themes/godding/**'
+						],
+						dest: 'dist/'
+					}
+				]
+			},
+			site: {
+				files: [
+					{
+						expand: true,
+						src: [
+							'index.php', 
+							'wp-content/index.php', 
+							'wp-content/themes/godding/_css/**',
+							'wp-content/themes/godding/_js/**',
+							'wp-content/themes/godding/_blocks/**',
+							'wp-content/themes/godding/*.php'
+						],
+						dest: 'dist/'
+					}
+				]
+			},
+			assets: {
+				files: [
+					{
+						expand: true,
+						src: [
+							'wp-content/themes/godding/_flash/**',
+							'wp-content/themes/godding/_images/**',
+							'wp-content/themes/godding/_fonts/**'
 						],
 						dest: 'dist/'
 					}
@@ -39,5 +68,7 @@ module.exports = function(grunt) {
 
 	// Default task(s).
 	grunt.registerTask('default', ['clean', 'copy']);
-	grunt.registerTask('deploy', ['clean', 'copy', 'ftp-deploy']);
+	grunt.registerTask('deploy:all', ['clean', 'copy:all', 'ftp-deploy']);
+	grunt.registerTask('deploy:site', ['clean', 'copy:site', 'ftp-deploy']);
+	grunt.registerTask('deploy:assets', ['clean', 'copy:assets', 'ftp-deploy']);
 };
