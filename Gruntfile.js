@@ -27,7 +27,8 @@ module.exports = function(grunt) {
 							'wp-content/themes/godding/_css/**',
 							'wp-content/themes/godding/_js/**',
 							'wp-content/themes/godding/_blocks/**',
-							'wp-content/themes/godding/*.php'
+							'wp-content/themes/godding/*.php',
+							'wp-content/themes/godding/*.css'
 						],
 						dest: 'dist/'
 					}
