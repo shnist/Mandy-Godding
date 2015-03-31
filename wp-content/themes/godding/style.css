@@ -31,6 +31,9 @@ ul{
 ul, li{
 	  list-style: none;
 }
+iframe {
+	width: 100%;
+}
 
 /* -- metro font embedding -- */
 
@@ -47,6 +50,9 @@ ul, li{
 }
 h1, h2, h3{
 	font-family: 'MetroNormal', Century Gothic, sans-serif;
+}
+h1 {
+	font-size: 28px;
 }
 .announcement{
 	color: #c20643;
