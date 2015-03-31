@@ -5,7 +5,7 @@
 		</div>
 		<!-- scripts -->
 		<!-- libraries -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="/wp-content/themes/godding/_js/jquery-1.9.1.min.js"></script>
 		<script src="/wp-content/themes/godding/_js/jquery-ui-1.8.16.custom.min.js"></script>
 		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 		<!-- custom -->
