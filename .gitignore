@@ -3,3 +3,4 @@ node_modules
 .ftppass
 dist
 uploads
+npm-debug.log
