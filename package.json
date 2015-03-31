@@ -18,7 +18,8 @@
   "homepage": "https://github.com/shnist/Mandy-Godding",
   "main": "Gruntfile.js",
   "scripts": {
-    "test": "grunt"
+    "test": "grunt",
+    "deploy:site": "./node_modules/.bin/grunt deploy:site"
   },
   "keywords": [
     "mandy",
