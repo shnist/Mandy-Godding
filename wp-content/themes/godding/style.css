@@ -65,7 +65,7 @@ h1 {
 
 /* -- header -- */
 
-#header {
+header {
 	background:url(_images/header_background.png) no-repeat;
 	width: 978px;
 	height: 503px;

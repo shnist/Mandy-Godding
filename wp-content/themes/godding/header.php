@@ -63,10 +63,10 @@
 			?>
 		</head>
 		<body>
-			<div id="header">
+			<header>
 				<?php include ('blocks/logo.php'); ?>
 				<a href="/">
 					<img id="mgtaLogo" src="/wp-content/themes/godding/_images/title.png" alt="Mandy Godding's Theatre Arts Logo">
 				</a>
 				<?php include ('blocks/primary_nav.php'); ?>
-			</div>
+			</header>
