@@ -53,7 +53,7 @@ module.exports = function(grunt) {
 				auth: {
 					host: 'ftp.mandygodding.co.uk',
 					port: 21,
-					authKey: 'mgtaBeta'
+					authKey: 'mandyGoddingKey'
 				},
 				src: 'dist',
 				dest: '/htdocs/mgta_beta',
