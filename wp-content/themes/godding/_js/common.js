@@ -49,6 +49,10 @@ MGTA = {
 	},
 	map: function () {
 		// co-ordinates
+        if (typeof google === 'undefined') {
+            return;
+        }
+       
 		var location = new google.maps.LatLng(51.866454,  -2.245339),
 		mapOptions = {
 			zoom: 15,
