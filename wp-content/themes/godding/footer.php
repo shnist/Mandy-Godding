@@ -46,7 +46,7 @@
 		<!-- scripts -->
 		<!-- libraries -->
 		<script src="/wp-content/themes/godding/_js/jquery-1.9.1.min.js"></script>
-		<script src="/wp-content/themes/godding/_js/jquery-ui-1.8.16.custom.min.js"></script>
+		<script src="/wp-content/themes/godding/_js/jquery-ui-1.11.4.custom.min.js"></script>
 		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 		<!-- custom -->
 		
