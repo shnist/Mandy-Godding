@@ -19,21 +19,21 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-html, body{
+html, body {
 	padding: 0;
 	margin: 0;
 }
-body{
-	background:url(_images/background.jpg);
+body {
 	font-family: rockwell, verdana, sans-serif;
 	font-size: 11pt;
+	background: #dad5ee url(_images/background.jpg);
 }
-ul{
+ul {
 	margin: 0;
 	padding: 0;
 }
-ul, li{
-	  list-style: none;
+ul, li {
+	list-style: none;
 }
 iframe {
 	width: 420px;

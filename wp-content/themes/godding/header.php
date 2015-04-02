@@ -62,7 +62,7 @@
 				wp_head();
 			?>
 		</head>
-		<body>
+		<body>	
 			<header>
 				<?php include ('blocks/logo.php'); ?>
 				<a href="/">
