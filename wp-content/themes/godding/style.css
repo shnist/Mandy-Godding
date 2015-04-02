@@ -120,13 +120,13 @@ header {
 #slideShow {
 	margin: 0 auto;
 	width: 970px;
-	min-height: 330px;
+	height: 330px;
 /*	z-index: -2;*/
 	position: absolute;
 	top: 165px;
 	left: -12px;
 	right: 0;
-/*	overflow: hidden;*/
+	overflow: hidden;
 }
 #slideShow img {
 	height: 330px;
@@ -484,8 +484,14 @@ footer {
 .wpcf7-submit {
 	background: #ca3398;
 	border-radius: 5px;
-	padding: 5px 15px;
+	padding: 10px 0;
 	font-size: 16px;
 	color: #fff;
 	border: none;
+	width: 100%;
+/*	box-shadow: 2px 2px 5px 0 rgba(128,128,128,1);*/
+}
+.wpcf7-submit:hover {
+	background: #B62C89;
+	cursor: pointer;
 }
