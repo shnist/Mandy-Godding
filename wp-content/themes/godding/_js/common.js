@@ -29,7 +29,7 @@ MGTA = {
                 speed: 750,
                 fade: true,
                 cssEase: 'ease-in',
-                appendDots: $('#header')
+                appendDots: $('header')
             });
         }
 	},
