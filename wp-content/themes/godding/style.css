@@ -315,69 +315,48 @@ footer {
    background: transparent url(_images/next.png) no-repeat scroll 34px 5px;
 }
 
-/* -- teachers page styles --*/
+/*
+	Teachers page styles
+*/
 
-/*#teacher-container{
-	padding: 0 20px 0 20px;
-}
-#teacher-container ul{
-   padding: 0;
-}
-#teacher-container li{
-   float: left;
-}*/
-/*#teachersTitle{
-	margin: 10px 0 15px 0;
-	letter-spacing: 0;
-}*/
-.teach-title{
-	font-size: 11pt;
-	font-family: rockwell, verdana, sans-serif;
-	margin: 0 0 7px 0;
-	height: 30px;
-}
-.js ul{
-   margin: 0 auto;
-   width: 885px;
-}
-
-#biography-portal {
+.teachers ul {
 	text-align: center;
 }
-#bio-container {
-/*   height: 70px;*/
-   width: 550px;
-   letter-spacing: 0;
-   text-align: left;
-   margin: 0 auto;
+.teachers li {
+	display: inline-block;
+	margin: 0 15px 0 0;
+	opacity: 0.7;
+	background: #989898; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #989898 0%, #0F0F0F 100%); /* FF3.6+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #989898 0%,#0F0F0F 100%); /* Chrome10+,Safari5.1+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #989898 0%,#0F0F0F 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #989898 0%,#0F0F0F 100%); /* W3C */
 }
-#bio-container p {
-   margin: 10px auto;
+.teachers .ui-tabs-active {
+	opacity: 1;
 }
-.js li{
-	margin: 0 15px 20px 0;
-}
-.js .bio-pic{
-	opacity: 0.5;
-}
-.js .bio-pic:hover{
-	outline: 2px solid #CAC6DD;
-	cursor: pointer;
-}
-.bio-link{
-	margin: 5px 0 0 0;
-	clear: both;
-	width: 100%;
+.teachers li a {
+	color: #fff;
 	display: block;
 }
-.selected img.bio-pic{
-   opacity: 1;
+.teachers h2 {
+	background: #ca3398;
+	padding: 5px 15px;
+	margin: 0;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 20px;
 }
-#biography-portal li{
-	letter-spacing: 0;
-	display: inline-block;
-	vertical-align: top;
+.teachers li img {
+	margin: -5px 0 0 0;
+	display: block;
+	margin: 0 auto;
 }
+.teachers section {
+	max-width: 60%;
+	min-height: 320px;
+	margin: 20px auto 0;
+}
+
 
 /* -- contact page styles -- */
 
@@ -425,7 +404,7 @@ footer {
 	max-width: 640px;
 }
 .address{
-	margin: 10px 0 0 0;
+	margin: 10px 0;
 }
 
 /* slick carousel */
