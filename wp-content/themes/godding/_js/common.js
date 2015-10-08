@@ -6,14 +6,14 @@ MGTA = {
 		if ($('#mapCont').length) {
 			this.map();
 		}
-		if ($('.emailParas').length) {
-			this.emailInjection();
-		}
 		if ($('.vidCont li').length > 1) {
 			carousel._create();
 		}
-		if ($('#teachersTitle').length) {
-		    teachers._setUp();
+		if ($('.teachers').length) {
+		    $('.teachers').tabs({
+                show: true,
+                hide: true
+            });
 		}
 		if ($('.announcement').length) {
 			var colorFader = setTimeout(function(){MGTA.subtleFade()}, 1000);
@@ -29,7 +29,7 @@ MGTA = {
                 speed: 750,
                 fade: true,
                 cssEase: 'ease-in',
-                appendDots: $('#header')
+                appendDots: $('header')
             });
         }
 	},
@@ -49,6 +49,10 @@ MGTA = {
 	},
 	map: function () {
 		// co-ordinates
+        if (typeof google === 'undefined') {
+            return;
+        }
+       
 		var location = new google.maps.LatLng(51.866454,  -2.245339),
 		mapOptions = {
 			zoom: 15,
@@ -63,14 +67,6 @@ MGTA = {
 			map: map,
 			title: "Mandy Godding's Theatre Arts"
 		});
-	},
-	emailInjection: function () {
-		if ("#dancing-email") {
-			$("#dancing-email").append('mandygodding@yahoo.co.uk');
-		}
-		if ("#singing-email") {
-			$("#singing-email").append('singing4stage@yahoo.co.uk');
-		}
 	},
 	advert : {
 		overlay : {
@@ -174,76 +170,6 @@ var carousel = {
     }
 };
 
-var teachers = {
-    biographies : {
-        mandy   : $('img[alt="Mandy Godding"]').parent().siblings('p'),
-        michael : $('img[alt="Michael Clifton"]').parent().siblings('p'),
-        jackie : $('img[alt="Jackie Shewell-Thomas"]').parent().siblings('p'),
-        penny : $('img[alt="Penny Hemms"]').parent().siblings('p'),
-        nikki : $('img[alt="Nikki Irving"]').parent().siblings('p')
-    },
-    _setUp : function () {
-        $('img', '#biography-portal').parent().siblings('p').remove();
-        $('#biography-portal').addClass('js').append('<div id="bio-container"></div>');
-        $(teachers.biographies.mandy).appendTo('#bio-container')
-        $('#bio-container').children('p').fadeIn('fast');
-        $('.bio-pic').after('<a class="bio-link" href="#">View Biography</a>');
-        $('img[alt="Mandy Godding"]').parents('li').addClass('selected');
-        teachers.events();
-    },
-    events : function () {
-        var img = $('img.bio-pic', $('li'));
-
-        $(img).add('.bio-link', 'li').click(function (e) {
-            var teacher = null;
-            if($(e.target).attr('alt')){
-                teacher = $(this).attr('alt');
-            } else {
-                teacher = $(this).siblings('img').attr('alt');
-            }
-
-            if ($('li').hasClass('selected')) {
-                $('li').removeClass('selected');
-            }
-
-            $(this).parents('li').addClass('selected');
-            teachers.textHandler(teacher);
-
-            e.preventDefault();
-        });
-    },
-    textHandler : function (teacher) {
-        var t = teacher;
-        if($('#bio-container').children('p').length){
-            $('#bio-container').animate({opacity: 0}, 1000, function () {
-                $(this).children('p').remove();
-                teachers.append(t);
-            });
-        }
-    },
-    append : function (t) {
-        switch (t){
-            case 'Mandy Godding':
-                $(teachers.biographies.mandy).appendTo('#bio-container');
-                $('#bio-container').animate({opacity: 1.0}, 1000);
-                break;
-            case 'Michael Clifton':
-                $(teachers.biographies.michael).appendTo('#bio-container');
-                $('#bio-container').animate({opacity: 1.0}, 1000);
-                break;
-            case 'Jackie Shewell-Thomas':
-                $(teachers.biographies.jackie).appendTo('#bio-container');
-                $('#bio-container').animate({opacity: 1.0}, 1000);
-                break;
-            case 'Nikki Irving' :
-                $(teachers.biographies.nikki).appendTo('#bio-container');
-                $('#bio-container').animate({opacity: 1.0}, 1000);
-                break;
-            default :
-                alert('An error has occured');
-        }
-    }
-};
 
 $(document).ready(function () {
 	MGTA.init();

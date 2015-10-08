@@ -12,24 +12,28 @@
 
 */
 
-/* -- global styles -- */
 
-html, body{
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+html, body {
 	padding: 0;
 	margin: 0;
 }
-body{
-	background:url(_images/background.jpg);
+body {
 	font-family: rockwell, verdana, sans-serif;
 	font-size: 11pt;
-	text-align: center;
+	background: #dad5ee url(_images/background.jpg);
 }
-ul{
+ul {
 	margin: 0;
 	padding: 0;
 }
-ul, li{
-	  list-style: none;
+ul, li {
+	list-style: none;
 }
 iframe {
 	width: 420px;
@@ -61,7 +65,7 @@ h1 {
 
 /* -- header -- */
 
-#header{
+header {
 	background:url(_images/header_background.png) no-repeat;
 	width: 978px;
 	height: 503px;
@@ -69,7 +73,7 @@ h1 {
 	position: relative;
 	z-index: 5;
 }
-#mgtaLogo{
+#mgtaLogo {
 	border: none;
 }
 
@@ -90,105 +94,136 @@ h1 {
 
 /* -- navigation -- */
 
-#nav{
+.primary-nav {
 	font-family: Century Gothic, sans-serif;
-	position: static;
 	float: right;
 	margin: 5px 55px 0 0;
 	z-index: 1000;
 	padding: 0;
 }
-ul#nav li{
+.primary-nav a {
 	float: left;
-	list-style: none;
 	margin-left: 20px;
-	font-size: 18px;
-}
-ul#nav li a{
 	color: #000;
+	font-size: 18px;
 	text-decoration: none;
 }
-ul#nav li a:hover{
+.primary-nav a:hover {
 	color: #b1afc2;
 }
-#socialPlugins{
+
+#socialPlugins {
 	position: absolute;
 	top: 10px;
 	left: 10px;
 }
-#slideShow{
+#slideShow {
 	margin: 0 auto;
 	width: 970px;
-	min-height: 330px;
+	height: 330px;
 /*	z-index: -2;*/
 	position: absolute;
 	top: 165px;
 	left: -12px;
 	right: 0;
-/*	overflow: hidden;*/
+	overflow: hidden;
 }
 #slideShow img {
 	height: 330px;
 }
-#cont{
-	width: 940px;
+.container {
+	width: 960px;
 	height: 100%;
 	background: #fff;
 	margin: 0 auto;
-	position: relative;
-	overflow: hidden; /* -- allows the 100% height to work with floated elements -- */
-	text-align: left;
 	border-radius: 0 0 5px 5px;
-	padding: 20px 0 20px 20px;
-/*	letter-spacing: -3px;*/
+	padding: 20px 0 30px 20px;
+	box-shadow: 3px 3px 10px 0 rgba(128,128,128,1);
 }
-.column{
+.column {
 	width: 430px;
 	display: inline-block;
 	letter-spacing: 0;
 	vertical-align: top;
-	margin:  0 20px 0 0;
+	margin: 0 20px 0 0;
 }
-#cont .column:last-child{
+.container .column:last-child {
 	margin: 0;
 }
-.followInfo{
+.followInfo {
 	margin: 3px;
 }
-#footer{
-	clear: both;
+
+/**
+	Footer
+*/
+
+footer {
 	border-radius: 5px;
-	background-color: #fff;
-	background:-webkit-gradient(
+	background: #FFFFFF;
+/*	background:-webkit-gradient(
         linear,
         left bottom,
         left top,
         color-stop(0, #CAC6DD),
 		color-stop(0.25 #E1DEEC),
         color-stop(1.0, #FFF)
-    );
-    background:-moz-linear-gradient(
-        center bottom,
-        #CAC6DD 0%,
-		#E1DEEC 25%,
-        #FFF 100%
-    );
+    );*/
+	box-shadow: 3px 3px 10px 0 rgba(128,128,128,1);
 	width: 960px;
-	height: 36px;
 	margin: 10px auto 10px auto;
-	clear: both;
 }
-#footer p{
-	float: left;
-	margin: 10px 0 0 70px;
+.footer-bottom {
+	background: #CAC6DD;
+	padding: 10px 0;
+	margin-top: 15px;
+	border-radius: 0 0 5px 5px;
 }
-.orgLogos{
-	display: block;
-	float: right;
-	margin-right: 30px;
-	margin-top: 20px;
+.footer-bottom small {
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+}
+.organisation-logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 30px;
+	margin-top: 15px;
 }
 
+/**
+	Footer nav component
+*/
+.footer-nav {
+	width: 33%;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer-nav .heading {
+	margin: 10px 0 20px;
+}
+.footer-nav:first-child {
+	padding-left: 20px;
+}
+.footer-nav a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	margin: 10px 0 0 0;
+	border-bottom: 1px solid #CAC6DD;
+	padding: 0 0 10px 5px;
+}
+.footer-nav a:hover {
+	color: #b1afc2;
+}
+.footer-nav a:first-child {
+	margin: 0;
+	padding-top: 10px;
+}
+.footer-nav i {
+	margin-right: 3px;
+}
 /* -- styles for videos -- */
 
 .carousel {
@@ -280,63 +315,48 @@ ul#nav li a:hover{
    background: transparent url(_images/next.png) no-repeat scroll 34px 5px;
 }
 
-/* -- teachers page styles --*/
+/*
+	Teachers page styles
+*/
 
-#teacher-container{
-	padding: 0 20px 0 20px;
+.teachers ul {
+	text-align: center;
 }
-#teacher-container ul{
-   padding: 0;
-}
-#teacher-container li{
-   float: left;
-}
-#teachersTitle{
-	margin: 10px 0 15px 0;
-	letter-spacing: 0;
-}
-.teach-title{
-	font-size: 11pt;
-	font-family: rockwell, verdana, sans-serif;
-	margin: 0 0 7px 0;
-	height: 30px;
-}
-.js ul{
-   margin: 0 auto;
-   width: 885px;
-}
-#bio-container {
-   height: 700px;
-   letter-spacing: 0;
-}
-#bio-container p{
-   width: 500px;
-   margin: 10px auto;
-}
-.js li{
-   margin: 0 15px 20px 0;
-}
-.js .bio-pic{
-   opacity: 0.5;
-}
-.js .bio-pic:hover{
-   outline: 2px solid #CAC6DD;
-   cursor: pointer;
-}
-.bio-link{
-	margin: 5px 0 0 0;
-   clear: both;
-   width: 100%;
-   display: block;
-}
-.selected img.bio-pic{
-   opacity: 1;
-}
-#biography-portal li{
-	letter-spacing: 0;
+.teachers li {
 	display: inline-block;
-	vertical-align: top;
+	margin: 0 15px 0 0;
+	opacity: 0.7;
+	background: #989898; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #989898 0%, #0F0F0F 100%); /* FF3.6+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #989898 0%,#0F0F0F 100%); /* Chrome10+,Safari5.1+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #989898 0%,#0F0F0F 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #989898 0%,#0F0F0F 100%); /* W3C */
 }
+.teachers .ui-tabs-active {
+	opacity: 1;
+}
+.teachers li a {
+	color: #fff;
+	display: block;
+}
+.teachers h2 {
+	background: #ca3398;
+	padding: 5px 15px;
+	margin: 0;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 20px;
+}
+.teachers li img {
+	margin: -5px 0 0 0;
+	display: block;
+	margin: 0 auto;
+}
+.teachers section {
+	max-width: 60%;
+	min-height: 320px;
+	margin: 20px auto 0;
+}
+
 
 /* -- contact page styles -- */
 
@@ -384,7 +404,7 @@ ul#nav li a:hover{
 	max-width: 640px;
 }
 .address{
-	margin: 10px 0 0 0;
+	margin: 10px 0;
 }
 
 /* slick carousel */
@@ -443,8 +463,14 @@ ul#nav li a:hover{
 .wpcf7-submit {
 	background: #ca3398;
 	border-radius: 5px;
-	padding: 5px 15px;
+	padding: 10px 0;
 	font-size: 16px;
 	color: #fff;
 	border: none;
+	width: 100%;
+/*	box-shadow: 2px 2px 5px 0 rgba(128,128,128,1);*/
+}
+.wpcf7-submit:hover {
+	background: #B62C89;
+	cursor: pointer;
 }
