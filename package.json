@@ -7,10 +7,11 @@
     "url": "https://github.com/shnist/Mandy-Godding.git"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-clean": "~0.4.1",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-ftp-deploy": "0.0.9"
+    "grunt": "0.4.1",
+    "grunt-cli": "0.1.13",
+    "grunt-contrib-clean": "0.4.1",
+    "grunt-contrib-copy": "0.4.1",
+    "grunt-ftp-deploy": "0.1.10"
   },
   "bugs": {
     "url": "https://github.com/shnist/Mandy-Godding/issues"
@@ -19,7 +20,8 @@
   "main": "Gruntfile.js",
   "scripts": {
     "test": "grunt",
-    "deploy:site": "./node_modules/.bin/grunt deploy:site"
+    "deploy:site": "./node_modules/.bin/grunt deploy:site",
+    "deploy:preview": "./node_modules/.bin/grunt preview"
   },
   "keywords": [
     "mandy",
