@@ -357,6 +357,11 @@ footer {
 	margin: 20px auto 0;
 }
 
+/** -- news page -- */
+
+.news-page {
+	text-align: center;
+}
 
 /* -- contact page styles -- */
 

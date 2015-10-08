@@ -2,7 +2,7 @@
 
 <?php include ('blocks/slideshow.php') ?>
 
-<article class="container">
+<article class="container news-page">
 
 <!-- 	<?php
 		$my_id = 27;
@@ -13,8 +13,7 @@
 		echo $content;
 	?>	 -->
 
-	<div class="fb-page" data-href="https://www.facebook.com/Mandy-Goddings-Theatre-Arts-1458762747762803" data-width="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"></div>	
-
+	<section id="fb-posts"></section>
 </article>
 
 <?php get_footer(); ?>
