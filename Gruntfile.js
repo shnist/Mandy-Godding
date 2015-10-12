@@ -79,8 +79,8 @@ module.exports = function(grunt) {
 
 	// Default task(s).
 	grunt.registerTask('default', ['clean', 'copy']);
-	grunt.registerTask('deploy:all', ['clean', 'copy:all', 'ftp-deploy']);
-	grunt.registerTask('deploy:site', ['clean', 'copy:site', 'ftp-deploy']);
-	grunt.registerTask('deploy:assets', ['clean', 'copy:assets', 'ftp-deploy']);
+	grunt.registerTask('deploy:all', ['clean', 'copy:all', 'ftp-deploy:build']);
+	grunt.registerTask('deploy:site', ['clean', 'copy:site', 'ftp-deploy:build']);
+	grunt.registerTask('deploy:assets', ['clean', 'copy:assets', 'ftp-deploy:build']);
 	grunt.registerTask('preview', ['clean', 'copy', 'ftp-deploy:preview']);
 };
