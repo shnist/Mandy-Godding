@@ -33,6 +33,7 @@
 			<!-- styles -->
 			<link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 			<link rel="stylesheet" href="/wp-content/themes/godding/_css/mobile.css" media="handheld, only screen and (max-device-width:480px)" >
+			<link rel="stylesheet" href="/wp-content/themes/godding/_css/ionicons.css" media="screen" >
 			<link rel="stylesheet" href="/wp-content/themes/godding/_css/slick.css" media="screen" >
 			<link rel="stylesheet" href="/wp-content/themes/godding/_css/slick-theme.css" media="screen" >
 			<link rel="stylesheet" href="/wp-content/themes/godding/_css/print.css" media="print" >
@@ -62,10 +63,22 @@
 			?>
 		</head>
 		<body>
-			<div id="header">
+			<!-- facebook integration -->
+			<div id="fb-root"></div>
+			<script>
+				(function(d, s, id){
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)) {return;}
+					js = d.createElement(s); js.id = id;
+					js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=801634389905442";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+			</script>
+
+			<header>
 				<?php include ('blocks/logo.php'); ?>
 				<a href="/">
 					<img id="mgtaLogo" src="/wp-content/themes/godding/_images/title.png" alt="Mandy Godding's Theatre Arts Logo">
 				</a>
 				<?php include ('blocks/primary_nav.php'); ?>
-			</div>
+			</header>
