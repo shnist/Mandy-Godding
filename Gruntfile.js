@@ -57,7 +57,8 @@ module.exports = function(grunt) {
 				},
 				src: 'dist',
 				dest: '/htdocs/mgta_beta',
-				exclusions: ['dist/.DS_Store', 'dist/Thumbs.db', 'dist/tmp', 'dist/.git']
+				exclusions: ['dist/.DS_Store', 'dist/Thumbs.db', 'dist/tmp', 'dist/.git'],
+				forceVerbose: true
 			},
 			build: {
 				auth: {
@@ -65,10 +66,11 @@ module.exports = function(grunt) {
 					port: 21,
 					authKey: 'mandyGoddingKey'
 				},
-				src:'dist',
+				src: 'dist',
 				// .ftppass with details is needed (not included in repo)
 				dest: '/htdocs/website',
-				exclusions: ['dist/.DS_Store', 'dist/Thumbs.db', 'dist/tmp', 'dist/.git']
+				exclusions: ['dist/.DS_Store', 'dist/Thumbs.db', 'dist/tmp', 'dist/.git'],
+				forceVerbose: true
 			}
 		}
 	});
