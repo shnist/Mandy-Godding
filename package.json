@@ -19,7 +19,9 @@
   "main": "Gruntfile.js",
   "scripts": {
     "test": "grunt",
-    "deploy:site": "./node_modules/.bin/grunt deploy:site"
+    "deploy:site:pages": "./node_modules/.bin/grunt deploy:site",
+    "deploy:site:all": "./node_modules/.bin/grunt deploy",
+    "deploy:site:assets": "./node_modules/.bin/grunt deploy:assets"
   },
   "keywords": [
     "mandy",
