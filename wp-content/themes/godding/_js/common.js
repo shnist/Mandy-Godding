@@ -9,12 +9,6 @@ MGTA = {
 		if ($('.vidCont li').length > 1) {
 			carousel._create();
 		}
-		if ($('.teachers').length) {
-		    $('.teachers').tabs({
-                show: true,
-                hide: true
-            });
-		}
 		if ($('.announcement').length) {
 			var colorFader = setTimeout(function(){MGTA.subtleFade()}, 1000);
 		}
@@ -52,7 +46,7 @@ MGTA = {
         if (typeof google === 'undefined') {
             return;
         }
-       
+
 		var location = new google.maps.LatLng(51.866454,  -2.245339),
 		mapOptions = {
 			zoom: 15,
