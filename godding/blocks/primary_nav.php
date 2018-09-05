@@ -8,9 +8,11 @@
 	<a href="<?php echo get_permalink( 101 ); ?>">Timetable</a>
 	<a href="<?php echo get_permalink( 18 ); ?>">Contact</a>
 </nav> -->
-wp_nav_menu(
-  array(
-    'theme_location' => 'primary-nav',
-    'container_class' => 'primary-nav'
-  )
-);
+<?php
+  wp_nav_menu(
+    array(
+      'theme_location' => 'primary-nav',
+      'container_class' => 'primary-nav'
+    )
+  );
+?>

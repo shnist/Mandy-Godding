@@ -29,7 +29,7 @@
     <link rel="shortcut icon" href="/wp-content/themes/godding/_images/site_favicon.ico" />
     <!-- styles -->
     <link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-    <link rel="stylesheet" href="/wp-content/themes/godding/_css/mobile.css" media="handheld, only screen and (max-device-width:480px)" >
+    <link rel="stylesheet" href="/wp-content/themes/godding/_css/mobile.css" media="screen and (max-device-width:480px)" >
     <link rel="stylesheet" href="/wp-content/themes/godding/_css/ionicons.css" media="screen" >
     <link rel="stylesheet" href="/wp-content/themes/godding/_css/slick.css" media="screen" >
     <link rel="stylesheet" href="/wp-content/themes/godding/_css/slick-theme.css" media="screen" >
@@ -37,7 +37,8 @@
 
     <link rel="alternate" type="application/rss+xml" href="<?php bloginfo('rss2_url'); ?>" title="<?php printf( __( '%s latest posts', 'godding' ), wp_specialchars( get_bloginfo('name'), 1 ) ); ?>" />
     <link rel="alternate" type="application/rss+xml" href="<?php bloginfo('comments_rss2_url') ?>" title="<?php printf( __( '%s latest comments', 'godding' ), wp_specialchars( get_bloginfo('name'), 1 ) ); ?>" />
-    <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"
+    <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
+
     <!-- google analytics -->
     <script type="text/javascript">
       var _gaq = _gaq || [];
