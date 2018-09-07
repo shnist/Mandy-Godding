@@ -100,9 +100,12 @@ header {
     padding: 0;
 }
 
+.primary-nav li {
+  float: left;
+  margin-left: 20px;
+}
+
 .primary-nav a {
-    float: left;
-    margin-left: 20px;
     color: #000;
     font-size: 18px;
     text-decoration: none;
