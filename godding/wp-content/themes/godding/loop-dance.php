@@ -2,7 +2,7 @@
 
 <?php include ('blocks/slideshow.php') ?>
 
-<article class="container">	
+<article class="container">
 	<?php
 		$my_id = 9;
 		$post_id_9 = get_post($my_id);
@@ -14,3 +14,4 @@
 </article>
 
 <?php get_footer(); ?>
+
