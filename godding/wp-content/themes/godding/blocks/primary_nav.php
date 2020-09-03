@@ -21,9 +21,6 @@
     <li class="nav__item"><a class="nav__link" href="<?php echo get_permalink(12); ?>">Singing</a></li>
     <li class="nav__item"><a class="nav__link" href="<?php echo get_permalink(14); ?>">Drama</a></li>
     <li class="nav__item"><a class="nav__link" href="<?php echo get_permalink(16); ?>">Teachers</a></li>
-<<<<<<< HEAD
-    <li class="nav__item"><a class="nav__link" href="http://mandygodding.co.uk/wp-content/uploads/2018/09/MGTA_Timetable_2018.pdf">Timetable</a></li>
-=======
     <li class="nav__item">
       <a href="#" class="nav__link" aria-haspopup="true">The School</a>
       <ul class="dropdown" aria-label="submenu">
@@ -32,14 +29,9 @@
         <li class="nav__item"><a class="nav__link" href="/wp-content/uploads/2020/09/mgta-terms-conditions-2020.pdf">Terms &amp; Conditions</a></li>
       </ul>
     </li>
->>>>>>> Updated docker-compose to get it working
     <li class="nav__item"><a class="nav__link" href="<?php echo get_permalink(18); ?>">Contact</a></li>
   </ul>
 
   <!-- ANIMATED BACKGROUND ELEMENT -->
   <div class="splash"></div>
 </nav>
-<<<<<<< HEAD
-=======
-
->>>>>>> Updated docker-compose to get it working
