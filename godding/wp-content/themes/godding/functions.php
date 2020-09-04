@@ -1,15 +1,22 @@
 <?php
-// add_action('get_header', 'remove_admin_login_header');
 
-// function remove_admin_login_header() {
-// 	remove_action('wp_head', '_admin_bar_bump_cb');
-// }
 
-## Registers navigation menus
-function register_my_menus() {
-	register_nav_menus(array(
-    'primary-nav' => __( 'Primary Nav' ),
-  ));
+/**
+ * Register and Enqueue Styles.
+ */
+function godding_register_styles() {
+
+  $rand = rand( 1, 99999999999 );
+  $theme_version = wp_get_theme()->get( 'Version' );
+
+  wp_enqueue_style( 'godding-style', get_stylesheet_uri(), array(), $rand );
+
+  wp_enqueue_style( 'godding-print-style', get_template_directory_uri() . '/_css/print.css', null, $theme_version, 'print' );
+  wp_enqueue_style( 'godding-nav-style', get_template_directory_uri() . '/_css/nav.css', null, $rand);
+
+
 }
-add_action( 'init', 'register_my_menus' );
+
+add_action( 'wp_enqueue_scripts', 'godding_register_styles' );
+
 ?>

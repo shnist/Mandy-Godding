@@ -6,6 +6,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo('charset'); ?>" />
   <meta name="description" content="We are a long established dedicated Theatre Arts School located in the centre of Gloucester,
   offering a range of dance and singing lessons. With over 25 years experience, we offer a comprehensive education in the performing arts. ">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>
     <?php
     /*
@@ -30,18 +32,9 @@
   <link rel="shortcut icon" href="/wp-content/themes/godding/_images/site_favicon.ico" />
   <!-- styles -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo('stylesheet_url'); ?>" />
-  <link rel="stylesheet" href="/wp-content/themes/godding/_css/nav.css" media="screen">
-  <link rel="stylesheet" href="/wp-content/themes/godding/_css/slick.css" media="screen">
-  <link rel="stylesheet" href="/wp-content/themes/godding/_css/slick-theme.css" media="screen">
-  <link rel="stylesheet" href="/wp-content/themes/godding/_css/print.css" media="print">
-
-  <link rel="alternate" type="application/rss+xml" href="<?php bloginfo('rss2_url'); ?>" title="<?php printf(__('%s latest posts', 'godding'), wp_specialchars(get_bloginfo('name'), 1)); ?>" />
-  <link rel="alternate" type="application/rss+xml" href="<?php bloginfo('comments_rss2_url') ?>" title="<?php printf(__('%s latest comments', 'godding'), wp_specialchars(get_bloginfo('name'), 1)); ?>" />
-  <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
   <!-- google analytics -->
-  <script type="text/javascript">
+  <script>
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-17888721-1']);
     _gaq.push(['_trackPageview']);
@@ -54,14 +47,7 @@
       s.parentNode.insertBefore(ga, s);
     })();
   </script>
-  <?php
-  /* Always have wp_head() just before the closing </head>
-        * tag of your theme, or you will break many plugins, which
-        * generally use this hook to add elements to <head> such
-        * as styles, scripts, and meta tags.
-        */
-  wp_head();
-  ?>
+  <?php wp_head(); ?>
 </head>
 
 <body>

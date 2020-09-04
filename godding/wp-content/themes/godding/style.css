@@ -80,16 +80,9 @@ p {
   font-family: "Eight One", sans-serif;
   font-size: 58px;
   padding: 0;
+  margin: 0;
 }
 
-/* h1 {
-  font-size: 48px;
-} */
-
-.announcement {
-  color: #c20643;
-  font-weight: bold;
-}
 
 /* -- header -- */
 
@@ -98,7 +91,7 @@ p {
 }
 
 .header {
-  height: 20rem;
+  height: 17rem;
   background: var(--primary-color);
   color: var(--light-color);
   padding: 50px 0 0;
@@ -119,7 +112,6 @@ p {
   .header {
     width: 1024px;
     margin: 0 auto;
-    height: 25rem;
   }
 
   .brand {
@@ -130,11 +122,11 @@ p {
 @media only screen and (min-device-width: 1440px) and (-webkit-min-device-pixel-ratio: 1) {
   .header {
     width: 100%;
-    height: 27rem;
   }
 
   .brand {
     width: 1250px;
+    justify-content: center;
   }
 }
 
