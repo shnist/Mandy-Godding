@@ -48,6 +48,6 @@
 
     <script src='/wp-content/themes/godding/_js/slick.js'></script>
     <script src='/wp-content/themes/godding/_js/common.js'></script>
-    </body>
-
-    </html>
+    <?php wp_footer(); ?>
+  </body>
+</html>

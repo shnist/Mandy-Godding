@@ -157,6 +157,14 @@ p {
   }
 } */
 
+/**
+  Video Hero
+*/
+
+.video-hero {
+  width: 100%;
+}
+
 .container {
   background: var(--light-color);
   max-width: 90%;

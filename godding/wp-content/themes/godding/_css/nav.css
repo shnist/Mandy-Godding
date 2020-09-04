@@ -68,28 +68,29 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .nav__menu li ul {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    left: 0;
+    display: none;
+  }
 
-.nav__menu li ul {
-  visibility: hidden;
-  opacity: 0;
-  min-width: 5rem;
-  position: absolute;
-  transition: all 0.5s ease;
-  left: 0;
-  display: none;
-}
+  .nav__menu li:hover > ul,
+  .nav__menu li:focus-within > ul,
+  .nav__menu li ul:hover,
+  .nav__menu li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
 
-.nav__menu li:hover > ul,
-.nav__menu li:focus-within > ul,
-.nav__menu li ul:hover,
-.nav__menu li ul:focus {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-
-.dropdown .nav__item {
-  background: var(--splash-bg-color);
+  .dropdown .nav__item {
+    background: var(--splash-bg-color);
+  }
 }
 
 

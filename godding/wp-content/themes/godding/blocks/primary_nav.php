@@ -14,13 +14,12 @@
 <nav id="nav" class="nav" role="navigation">
   <!-- ACTUAL NAVIGATION MENU -->
   <ul class="nav__menu" id="menu" tabindex="-1" aria-label="main navigation" hidden>
-    <li class="nav__item"><a class="nav__link" href="<?php echo get_permalink(6); ?>">Home</a></li>
-    <li class="nav__item"><a class="nav__link" href="<?php echo get_permalink(27); ?>">News</a></li>
-    <li class="nav__item"><a class="nav__link" href="<?php echo get_permalink(123); ?>">Blog</a></li>
-    <li class="nav__item"><a class="nav__link" href="<?php echo get_permalink(9); ?>">Dance</a></li>
-    <li class="nav__item"><a class="nav__link" href="<?php echo get_permalink(12); ?>">Singing</a></li>
-    <li class="nav__item"><a class="nav__link" href="<?php echo get_permalink(14); ?>">Drama</a></li>
-    <li class="nav__item"><a class="nav__link" href="<?php echo get_permalink(16); ?>">Teachers</a></li>
+    <li class="nav__item"><a class="nav__link" href="/">Home</a></li>
+    <li class="nav__item"><a class="nav__link" href="/news">News</a></li>
+    <li class="nav__item"><a class="nav__link" href="/dance">Dance</a></li>
+    <li class="nav__item"><a class="nav__link" href="/singing">Singing</a></li>
+    <li class="nav__item"><a class="nav__link" href="/drama">Drama</a></li>
+    <li class="nav__item"><a class="nav__link" href="/teachers">Teachers</a></li>
     <li class="nav__item">
       <a href="#" class="nav__link" aria-haspopup="true">The School</a>
       <ul class="dropdown" aria-label="submenu">
@@ -29,7 +28,7 @@
         <li class="nav__item"><a class="nav__link" href="/wp-content/uploads/2020/09/mgta-terms-conditions-2020.pdf">Terms &amp; Conditions</a></li>
       </ul>
     </li>
-    <li class="nav__item"><a class="nav__link" href="<?php echo get_permalink(18); ?>">Contact</a></li>
+    <li class="nav__item"><a class="nav__link" href="/contact">Contact</a></li>
   </ul>
 
   <!-- ANIMATED BACKGROUND ELEMENT -->
