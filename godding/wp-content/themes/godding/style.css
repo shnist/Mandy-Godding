@@ -42,17 +42,6 @@ img {
   width: 100%;
 }
 
-/* -- metro font embedding -- */
-
-/* @font-face {
-  font-family: "MetroNormal";
-  src: url('_fonts/metro-normal.woff2') format('woff2'),
-    url("_fonts/metro-normal.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-} */
-
 @font-face {
   font-family: "Eight One";
   src: url("_fonts/eight-one.woff2") format("woff2"),
@@ -78,23 +67,37 @@ p {
 
 .title {
   font-family: "Eight One", sans-serif;
-  font-size: 58px;
+  /* font-size: 58px; */
   padding: 0;
   margin: 0;
+  text-align: center;
+}
+
+@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .title {
+    font-size: 58px;
+    text-align: left;
+  }
 }
 
 
 /* -- header -- */
 
 .logos {
-  max-width: 150px;
+  max-width: 100px;
+}
+
+@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .logos {
+    max-width: 150px;
+  }
 }
 
 .header {
-  height: 17rem;
+  height: 15rem;
   background: var(--primary-color);
   color: var(--light-color);
-  padding: 50px 0 0;
+  padding: 30px 0 0;
   display: flex;
   align-items: center;
   position: relative;
@@ -105,6 +108,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: column;
   width: 80%;
 }
 
@@ -116,6 +120,7 @@ p {
 
   .brand {
     width: 970px;
+    flex-direction: row;
   }
 }
 
@@ -160,8 +165,8 @@ p {
 .container {
   background: var(--light-color);
   max-width: 90%;
-  margin: 0 auto 100px;
-  padding: 100px 0 50px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -212,7 +217,7 @@ p {
 footer {
   background: var(--primary-color);
   color: var(--light-color);
-  padding: 10px 0;
+  padding: 30px 0 10px;
   margin-top: 25px;
 }
 
@@ -232,12 +237,12 @@ footer {
 
 footer .social-icons {
   width: 90%;
-  margin: 40px auto;
+  margin: 10px auto;
   text-align: center;
 }
 
 footer .social-icons svg {
-  max-width: 100px;
+  max-width: 60px;
 }
 
 footer small {
@@ -247,14 +252,14 @@ footer small {
 
 footer .contact {
   width: 90%;
-  margin: 40px auto 0;
+  margin: 0 auto;
   text-align: center;
 }
 
 footer .contact a {
   color: var(--light-color);
   display: block;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
