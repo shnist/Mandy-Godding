@@ -1,4 +1,4 @@
-<?php get_template_part('blocks/slideshow.php') ?>
+<?php get_template_part('blocks/slideshow') ?>
 
 <article <?php post_class("container"); ?>>
   <?php the_content() ?>
