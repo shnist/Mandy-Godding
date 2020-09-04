@@ -82,9 +82,9 @@
   <header class="header" role="banner">
     <div class="brand">
       <div class="logos">
-        <?php include('blocks/logo.php'); ?>
+        <?php get_template_part('blocks/logo'); ?>
       </div>
       <h1 class="title">Mandy Godding's Theatre Arts</h1>
     </div>
-    <?php include('blocks/primary_nav.php'); ?>
+    <?php get_template_part('blocks/primary_nav'); ?>
   </header>

@@ -1,4 +1,4 @@
-    <?php include('blocks/qualifications.php'); ?>
+    <?php get_template_part('blocks/qualifications.php'); ?>
     <footer>
       <div class="contact">
         <a href="tel:01452424348">01452424348</a>

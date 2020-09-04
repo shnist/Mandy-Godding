@@ -1,33 +1,12 @@
-<?php if ( have_posts() ) : the_post(); ?>
 
-<?php
-if (is_front_page()) {		
-		get_template_part('loop', 'home');
-}
-elseif(is_page('dance')){
-		get_template_part('loop', 'dance');
-}
-elseif(is_page('singing')){
-		get_template_part('loop', 'singing');
-}
-elseif(is_page('drama')){
-	get_template_part('loop', 'drama');
-}
-elseif(is_page('teachers')){
-	get_template_part('loop', 'teachers');
-}
-elseif(is_page('contact')){
-	get_template_part('loop', 'contact');
-}
-elseif(is_page('news')){
-	get_template_part('loop', 'news');
-}
-elseif(is_page('timetable')){
-	get_template_part('loop', 'timetable');
-}
-else{
-	//standard page template
-	get_template_part('loop', 'page');
-}
-?>
-<?php endif; ?>
+<?php while (have_posts()) : the_post();
+  if (is_front_page()) :
+    get_template_part('templates/home');
+  elseif (is_page('Teachers')) :
+    get_template_part('templates/teachers');
+  elseif (is_page('Contact')) :
+    get_template_part('templates/contact');
+  else :
+    get_template_part('templates/content');
+  endif;
+endwhile; ?>
