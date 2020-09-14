@@ -32,7 +32,7 @@
 					<i class="ion-ios-arrow-right"></i>
 					Drama
 				</a>
-				<a href="/wp-content/uploads/2020/09/mgta-terms-conditions-2020.pdf">
+				<a href="/wp-content/uploads/2020/09/autumn-2020-timetable.pdf">
 					<i class="ion-ios-arrow-right"></i>
 					Timetable
 				</a>
