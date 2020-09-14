@@ -32,7 +32,7 @@
 					<i class="ion-ios-arrow-right"></i>
 					Drama
 				</a>
-				<a href="<?php echo get_permalink( 101 ); ?>">
+				<a href="/wp-content/uploads/2020/09/mgta-terms-conditions-2020.pdf">
 					<i class="ion-ios-arrow-right"></i>
 					Timetable
 				</a>
@@ -49,7 +49,7 @@
 		<script src="/wp-content/themes/godding/_js/jquery-ui-1.11.4.custom.min.js"></script>
 		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 		<!-- custom -->
-		
+
 		<script src='/wp-content/themes/godding/_js/slick.js'></script>
 		<script src='/wp-content/themes/godding/_js/common.js'></script>
 	</body>
