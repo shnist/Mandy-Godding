@@ -19,7 +19,7 @@
     <li class="nav__item"><a class="nav__link" href="/dance">Dance</a></li>
     <li class="nav__item"><a class="nav__link" href="/singing">Singing</a></li>
     <li class="nav__item"><a class="nav__link" href="/drama">Drama</a></li>
-    <li class="nav__item"><a class="nav__link" href="/teachers">Teachers</a></li>
+    <!-- <li class="nav__item"><a class="nav__link" href="/teachers">Teachers</a></li> -->
     <li class="nav__item">
       <a href="#" class="nav__link" aria-haspopup="true">The School</a>
       <ul class="dropdown" aria-label="submenu">
