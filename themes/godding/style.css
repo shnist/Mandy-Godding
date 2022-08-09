@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgba(132, 0, 109, 1);
+  --primary-color: rgba(0, 0, 0, 1);
   --light-color: rgba(255, 255, 255, 1);
 }
 
@@ -129,8 +129,7 @@ p {
   }
 
   .brand {
-    width: 1250px;
-    justify-content: center;
+    width: 1080px;
   }
 }
 

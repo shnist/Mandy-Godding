@@ -74,10 +74,24 @@
   text-decoration: none;
   padding: 20px;
 }
-.nav__link:hover,
-.nav__link:focus {
-  outline: 0;
-  background-color: rgba(0, 0, 0, 0.2);
+.nav__link:hover:before,
+.nav__link:focus:before {
+  opacity: 1;
+}
+.nav__link:before {
+  background: var(--splash-bg-color);
+  content: "";
+  height: 5px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  transition: opacity .2s ease;
+  width: 100%;
+}
+
+*, :after, :before {
+  box-sizing: inherit;
 }
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
