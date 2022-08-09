@@ -236,8 +236,14 @@ p {
 footer {
   background: var(--primary-color);
   color: var(--light-color);
-  padding: 30px 0 10px;
+  padding: 10px 0;
   margin-top: 25px;
+}
+
+#istd {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
 #istd a {
@@ -313,6 +319,15 @@ footer {
 
 footer .social-icons a {
   text-decoration: none;
+  color: var(--light-color);
+}
+
+footer .social-icons ul {
+  padding-top: 10px;
+}
+
+footer .social-icons li {
+  margin-top: 10px;
 }
 
 footer .social-icons svg {
@@ -346,9 +361,9 @@ footer .contact a {
 }
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  footer .contact {
+  /* footer .contact {
     text-align: left;
-  }
+  } */
 
   #istd a {
     width: 16.625rem;
@@ -357,17 +372,19 @@ footer .contact a {
   .footer-sup {
     width: 80%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 auto;
   }
 
   .footer-sup > div {
     text-align: left;
+    margin: 30px 0 0;
+    width: auto;
   }
 
-  .footer-sup .social-icons {
+  /* .footer-sup .social-icons {
     text-align: center;
-  }
+  } */
 
   .footer-copyright {
     width: 80%;

@@ -20,14 +20,14 @@
     <li class="nav__item"><a class="nav__link" href="/singing">Singing</a></li>
     <li class="nav__item"><a class="nav__link" href="/drama">Drama</a></li>
     <!-- <li class="nav__item"><a class="nav__link" href="/teachers">Teachers</a></li> -->
-    <li class="nav__item">
+    <li class="nav__item"><a class="nav__link" href="/wp-content/uploads/2020/09/autumn-2020-timetable.pdf">Timetable</a></li>
+    <!-- <li class="nav__item">
       <a href="#" class="nav__link" aria-haspopup="true">The School</a>
       <ul class="dropdown" aria-label="submenu">
-        <li class="nav__item"><a class="nav__link" href="/wp-content/uploads/2020/09/autumn-2020-timetable.pdf">Autumn 2020 Timetable</a></li>
         <li class="nav__item"><a class="nav__link" href="/wp-content/uploads/2020/09/mgta-covid-policy-2020.pdf">Covid-19 Policy</a></li>
         <li class="nav__item"><a class="nav__link" href="/wp-content/uploads/2020/09/mgta-terms-conditions-2020.pdf">Terms &amp; Conditions</a></li>
       </ul>
-    </li>
+    </li> -->
     <li class="nav__item"><a class="nav__link" href="/contact">Contact</a></li>
   </ul>
 
