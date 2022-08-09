@@ -9,7 +9,7 @@
   z-index: 10;
 }
 
-@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 1440px) and (-webkit-min-device-pixel-ratio: 1) {
   .nav {
     position: static;
   }
@@ -271,7 +271,7 @@
   }
   .nav__link {
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px;
   }
 }
