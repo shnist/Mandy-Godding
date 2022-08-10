@@ -184,12 +184,6 @@ p {
 }
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .video-hero {
-    /* width: 1024px;
-    margin: 0 auto;
-    display: block; */
-  }
-
   .container {
     width: 1024px;
     margin: 0 auto;
@@ -202,18 +196,6 @@ p {
     width: 1024px;
   }
 }
-
-/* .column {
-    width: 430px;
-    display: inline-block;
-    letter-spacing: 0;
-    vertical-align: top;
-    margin: 0 20px 0 0;
-}
-
-.container .column:last-child {
-    margin: 0;
-} */
 
 .followInfo {
   margin: 3px;
@@ -523,7 +505,9 @@ footer .contact a {
 /** -- news page -- */
 
 .news-page {
+  margin: 30px 0;
   text-align: center;
+  min-height: 500px;
 }
 
 /* -- contact page styles -- */
