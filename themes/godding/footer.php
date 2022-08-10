@@ -52,14 +52,14 @@
           </a>
           <ul>
             <li>
-              <a href="/wp-content/uploads/2020/09/mgta-covid-policy-2020.pd">COVID-19 Policy</a>
+              <a href="/covid-policy">COVID-19 Policy</a>
             </li>
             <li>
-              <a href="/wp-content/uploads/2020/09/mgta-terms-conditions-2020.pdf">Terms &amp; Conditions</a>
+              <a href="/terms-and-conditions">Terms &amp; Conditions</a>
             </li>
-            <li>
-              <a href="#">Privacy Policy</a>
-            </li>
+            <!-- <li>
+              <a href="/privacy-policy">Privacy Policy</a>
+            </li> -->
           </ul>
         </div>
       </div>
