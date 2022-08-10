@@ -40,16 +40,6 @@ body {
   font-size: 16px;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-ul,
-li {
-  list-style: none;
-}
-
 iframe {
   width: 420px;
 }
@@ -78,6 +68,11 @@ h6 {
 
 p {
   padding-bottom: 10px;
+}
+
+figcaption {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .title {
@@ -117,6 +112,19 @@ p {
   align-items: center;
   position: relative;
   flex-direction: column;
+}
+
+.header ul,
+.footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header ul,
+.header li,
+.footer ul,
+.footer li {
+  list-style: none;
 }
 
 .brand {
