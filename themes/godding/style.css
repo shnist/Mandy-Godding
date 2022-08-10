@@ -72,12 +72,12 @@ p {
 
 figcaption {
   font-family: "Roboto", sans-serif;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
 }
 
 .title {
   font-family: "Eight One", sans-serif;
-  /* font-size: 58px; */
   padding: 0;
   margin: 0;
   text-align: center;
@@ -115,15 +115,15 @@ figcaption {
 }
 
 .header ul,
-.footer ul {
+footer ul {
   margin: 0;
   padding: 0;
 }
 
 .header ul,
 .header li,
-.footer ul,
-.footer li {
+footer ul,
+footer li {
   list-style: none;
 }
 
