@@ -66,6 +66,10 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+h1 {
+  font-size: 2em;
+}
+
 p {
   padding-bottom: 10px;
 }
