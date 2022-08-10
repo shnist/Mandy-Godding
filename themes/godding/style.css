@@ -15,7 +15,9 @@
   border: 0;
 }
 
-.grecaptcha-badge { visibility: hidden; }
+.grecaptcha-badge {
+  visibility: hidden;
+}
 
 html {
   box-sizing: border-box;
@@ -126,11 +128,6 @@ p {
 }
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .header {
-    width: 1024px;
-    margin: 0 auto;
-  }
-
   .brand {
     width: 970px;
     flex-direction: row;
@@ -150,23 +147,8 @@ p {
 }
 
 .slide-show img {
-  /* object-fit: cover; */
-  /* max-height: 650px; */
   object-position: top center;
 }
-
-/* @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .slide-show {
-    margin: 0 auto;
-    width: 1024px;
-  }
-}
-
-@media only screen and (min-device-width: 1440px) and (-webkit-min-device-pixel-ratio: 1) {
-  .slide-show {
-    width: 1250px;
-  }
-} */
 
 /**
   Video Hero
@@ -276,14 +258,7 @@ footer {
 }
 
 #bbo-dance span {
-  color: rgb(244,125,37);
-}
-
-@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  footer {
-    width: 1024px;
-    margin: 0 auto;
-  }
+  color: rgb(244, 125, 37);
 }
 
 .footer-copyright {
@@ -294,7 +269,7 @@ footer {
   color: var(--sub-text-color);
 }
 
-.footer-sup > div {
+.footer-sup>div {
   width: 90%;
   margin: 30px auto 0;
   text-align: center;
@@ -334,7 +309,7 @@ footer .contact a {
 }
 
 @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
-  footer > div {
+  footer>div {
     margin: 20px auto;
   }
 
@@ -344,14 +319,6 @@ footer .contact a {
 }
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  /* footer .contact {
-    text-align: left;
-  } */
-
-  #istd a {
-    width: 16.625rem;
-  }
-
   .footer-sup {
     width: 80%;
     display: flex;
@@ -359,15 +326,12 @@ footer .contact a {
     margin: 0 auto;
   }
 
-  .footer-sup > div {
+  .footer-sup>div {
     text-align: left;
     margin: 30px 0 0;
     width: auto;
   }
 
-  /* .footer-sup .social-icons {
-    text-align: center;
-  } */
 
   .footer-copyright {
     width: 80%;
@@ -432,48 +396,6 @@ footer .contact a {
   width: 280px;
   margin: 0 20px 0 0;
 }
-
-/*
-.controls {
-    float: right;
-    display: block;
-    margin: 0;
-    padding: 0;
-}
-
-.controls li {
-    width: 50px;
-    height: 20px;
-    background: #E1DEEC;
-    background: -webkit-gradient( linear, left bottom, left top, color-stop(0, #CAC6DD), color-stop(1.0, #E1DEEC));
-    background: -moz-linear-gradient( center bottom, #CAC6DD 0%, #E1DEEC 100%);
-    float: left;
-    border-radius: 5px;
-    margin: 0 5px 0 0;
-}
-
-.controls button {
-    border: none;
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.controls li:hover {
-    background: #CAC6DD;
-}
-
-.controls button:hover {
-    cursor: pointer;
-}
-
-.prev {
-    background: transparent url(_images/prev.png) no-repeat scroll 7px 5px;
-}
-
-.next {
-    background: transparent url(_images/next.png) no-repeat scroll 34px 5px;
-} */
 
 /*
 	Teachers page styles
