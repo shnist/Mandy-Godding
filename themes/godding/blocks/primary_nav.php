@@ -20,7 +20,7 @@
     <li class="nav__item"><a class="nav__link" href="/singing">Singing</a></li>
     <li class="nav__item"><a class="nav__link" href="/drama">Drama</a></li>
     <!-- <li class="nav__item"><a class="nav__link" href="/teachers">Teachers</a></li> -->
-    <li class="nav__item"><a class="nav__link" href="/wp-content/uploads/2020/09/autumn-2020-timetable.pdf">Timetable</a></li>
+    <li class="nav__item"><a class="nav__link" href="/timetable">Timetable</a></li>
     <!-- <li class="nav__item">
       <a href="#" class="nav__link" aria-haspopup="true">The School</a>
       <ul class="dropdown" aria-label="submenu">
