@@ -1,33 +1,19 @@
-<?php if ( have_posts() ) : the_post(); ?>
+<?php
+
+get_header();
+
+?>
 
 <?php
-if (is_front_page()) {		
-		get_template_part('loop', 'home');
-}
-elseif(is_page('dance')){
-		get_template_part('loop', 'dance');
-}
-elseif(is_page('singing')){
-		get_template_part('loop', 'singing');
-}
-elseif(is_page('drama')){
-	get_template_part('loop', 'drama');
-}
-elseif(is_page('teachers')){
-	get_template_part('loop', 'teachers');
-}
-elseif(is_page('contact')){
-	get_template_part('loop', 'contact');
-}
-elseif(is_page('news')){
-	get_template_part('loop', 'news');
-}
-elseif(is_page('timetable')){
-	get_template_part('loop', 'timetable');
-}
-else{
-	//standard page template
-	get_template_part('loop', 'page');
+if (have_posts()) {
+
+  while (have_posts()) {
+    the_post();
+
+    get_template_part('template-parts/content', 'page');
+  }
 }
 ?>
-<?php endif; ?>
+
+
+<?php get_footer(); ?>
