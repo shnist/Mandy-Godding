@@ -1,3 +1,3 @@
 <?php
-    echo do_shortcode('[smartslider3 slider="2"]');
+    echo do_shortcode('[smartslider3 slider="3"]');
 ?>
