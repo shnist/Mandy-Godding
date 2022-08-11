@@ -312,11 +312,26 @@ footer {
   display: block;
   color: var(--light-color);
   text-decoration: none;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 #bbo-dance span {
   color: rgb(244, 125, 37);
+}
+
+#lamda {
+  display: block;
+  max-width: 200px;
+  margin-top: 20px;
+}
+
+#lamda .lamda-logo:before {
+  background: url(_images/lamda.svg) no-repeat;
+  background-size: contain;
+  content: "";
+  display: block;
+  width: 100%;
+  padding-top: 20%;
 }
 
 .footer-copyright {

@@ -12,13 +12,16 @@
         </div>
         <div class="footer-associations">
           <div id="istd">
-            <a href="https://my.istd.org/home/" title="Imperial Society of Teachers of Dancing">
+            <a href="https://my.istd.org/home/">
               <span class="emblem"></span>
               <span class="site-title"><span class="visually-hidden">Imperial Society of Teachers of Dancing</span></span>
             </a>
           </div>
           <a href="https://bbo.dance/" id="bbo-dance">
             <span>bbo</span> dance
+          </a>
+          <a href="https://www.lamda.ac.uk/" id="lamda">
+            <span class="lamda-logo"><span class="visually-hidden">LAMDA</span></span>
           </a>
         </div>
         <div class="social-icons">
@@ -57,9 +60,6 @@
             <li>
               <a href="/terms-and-conditions">Terms &amp; Conditions</a>
             </li>
-            <!-- <li>
-              <a href="/privacy-policy">Privacy Policy</a>
-            </li> -->
           </ul>
         </div>
       </div>
