@@ -31,7 +31,10 @@
   <!-- favicon -->
   <link rel="shortcut icon" href="/wp-content/themes/godding/_images/site_favicon.ico" />
   <!-- styles -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
   <!-- google analytics -->
   <script>
@@ -70,7 +73,7 @@
       <div class="logos">
         <?php get_template_part('blocks/logo'); ?>
       </div>
-      <h1 class="title">Mandy Godding's Theatre Arts</h1>
+      <h1 class="title"><span class="mandy">Mandy</span> <span>Goddings</span> <span class="theatre-arts">Theatre Arts<span></h1>
     </div>
     <?php get_template_part('blocks/primary_nav'); ?>
   </header>

@@ -4,6 +4,22 @@
   --sub-text-color: rgba(222, 222, 222, 1);
 }
 
+@font-face {
+  font-family: "LOVES";
+  src: url("_fonts/LOVES.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FUTRFW";
+  src: url("_fonts/FUTRFW.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -36,7 +52,7 @@ body {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-size: 16px;
 }
 
@@ -48,22 +64,13 @@ img {
   width: 100%;
 }
 
-@font-face {
-  font-family: "Eight One";
-  src: url("_fonts/eight-one.woff2") format("woff2"),
-    url("_fonts/eight-one.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 h1 {
@@ -75,22 +82,46 @@ p {
 }
 
 figcaption {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: rgba(0, 0, 0, 0.6);
   text-align: center;
 }
 
 .title {
-  font-family: "Eight One", sans-serif;
   padding: 0;
   margin: 0;
-  text-align: center;
+}
+
+.title span {
+  font-family: "FUTRFW", sans-serif;
+  text-transform: uppercase;
+}
+
+.title .mandy {
+  font-family: "LOVES", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  margin-left: 5px;
+}
+
+.title .theatre-arts {
+  display: block;
+  font-size: 12px;
+  margin: 10px 0 0 5px;
 }
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .title {
     font-size: 38px;
-    text-align: left;
+  }
+
+  .title .mandy {
+    font-size: 42px;
+  }
+
+  .title .theatre-arts {
+    text-align: right;
+    margin-top: 0;
   }
 }
 
