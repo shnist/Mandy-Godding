@@ -100,6 +100,7 @@ figcaption {
 .title .mandy {
   font-family: "LOVES", sans-serif;
   font-weight: lighter;
+  font-size: 42px;
   letter-spacing: 10px;
   margin-left: 5px;
 }
@@ -113,10 +114,6 @@ figcaption {
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .title {
     font-size: 38px;
-  }
-
-  .title .mandy {
-    font-size: 42px;
   }
 
   .title .theatre-arts {
