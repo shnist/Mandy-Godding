@@ -90,10 +90,6 @@
   width: 100%;
 }
 
-*, :after, :before {
-  box-sizing: inherit;
-}
-
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .nav__menu li ul {
     visibility: hidden;
