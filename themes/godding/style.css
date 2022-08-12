@@ -321,8 +321,7 @@ footer {
 
 #lamda {
   display: block;
-  max-width: 200px;
-  margin-top: 20px;
+  margin: 20px auto 0;
 }
 
 #lamda .lamda-logo:before {
@@ -330,8 +329,9 @@ footer {
   background-size: contain;
   content: "";
   display: block;
-  width: 100%;
+  max-width: 100px;
   padding-top: 20%;
+  margin: 0 auto;
 }
 
 .footer-copyright {
