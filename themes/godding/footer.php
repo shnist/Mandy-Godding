@@ -54,6 +54,7 @@
         <small> Established 1984 </small>
       </div>
     </footer>
+    <script src="/wp-content/themes/godding/_js/index.js"></script>
     <?php wp_footer(); ?>
   </body>
 </html>
