@@ -54,16 +54,6 @@
         <small> Established 1984 </small>
       </div>
     </footer>
-    <!-- scripts -->
-    <!-- libraries -->
-    <script src="/wp-content/themes/godding/_js/jquery-1.9.1.min.js"></script>
-    <script src="/wp-content/themes/godding/_js/jquery-ui-1.11.4.custom.min.js"></script>
-    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <!-- custom -->
-
-    <script src='/wp-content/themes/godding/_js/slick.js'></script>
-    <script src='/wp-content/themes/godding/_js/common.js'></script>
     <?php wp_footer(); ?>
-    </body>
-
-    </html>
+  </body>
+</html>
