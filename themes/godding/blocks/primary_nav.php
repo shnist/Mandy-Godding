@@ -22,4 +22,6 @@
     <li class="nav__item"><a class="nav__link" href="/timetable">Timetable</a></li>
     <li class="nav__item"><a class="nav__link" href="/contact">Contact</a></li>
   </ul>
+  <!-- ANIMATED BACKGROUND ELEMENT -->	
+  <div class="splash"></div>
 </nav>
